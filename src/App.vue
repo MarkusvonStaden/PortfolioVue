@@ -1,8 +1,10 @@
 <script setup>
 import Hello from "./components/Hello.vue";
 import About from "./components/About.vue";
-import List from "./List.vue";
+import Projects from "./components/Projects.vue";
+import List from "./components/List.vue";
 import Footer from "./components/Footer.vue";
+import Modal from "./components/modals/Modal.vue";
 </script>
 
 <template>
@@ -14,6 +16,7 @@ import Footer from "./components/Footer.vue";
     <List :data="certificates" class="snap-start" />
     <List :data="hackathons" class="snap-start" />
     <Footer class="snap-start" />
+    <Modal />
   </div>
 </template>
 
