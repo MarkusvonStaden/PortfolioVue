@@ -17,7 +17,7 @@ const modal = useModal();
           class="flex flex-col h-3/4 w-3/4 overflow-hidden bg-gray-800 rounded-2xl bg-clip-padding backdrop-filter bg-opacity-40 border border-slate-500 p-0 text-slate-200 place-items-center"
         >
           <div
-            class="p-10 overflow-hidden prose-invert w-full max-h-full overflow-y-auto prose-lg prose-h2:font-mono prose-h2:text-lg prose-headings:m-0 prose-h2:mb-5 prose-img:rounded"
+            class="p-10 overflow-hidden prose-invert w-full max-h-full overflow-y-auto prose-lg prose-h2:font-mono prose-h2:text-lg prose-headings:m-0 prose-h2:mb-5 prose-img:rounded no-scrollbar"
             v-html="marked.parse(modal.modalContent.value)"
           />
           <button

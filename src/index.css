@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
 @layer components {
   .box-accent {
     @apply relative rounded-2xl bg-gradient-to-r from-cyan-200 via-blue-800 to-indigo-800 after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:to-indigo-700 after:from-cyan-200 after:via-blue-800;
