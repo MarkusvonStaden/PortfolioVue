@@ -7,7 +7,7 @@
     </h1>
     <div class="projects-list grid grid-cols-1 md:grid-cols-3 gap-10 w-2/3">
       <a
-        v-for="project in projects"
+        v-for="project in data"
         class="project z-10 overflow-hidden relative inline-block rounded-2xl group min-w-fit max-w-lg w-auto aspect-square hover:shadow-[0px_0px_100px_10px_rgba(109,40,217)] hover:shadow-cyan-400/20 cursor-pointer"
       >
         <img
@@ -25,22 +25,13 @@
   </div>
 </template>
 
-<script setup>
-const projects = [
-  {
-    id: "b2api",
-    title: "Blackboard2API",
-    image: "https://picsum.photos/300/400",
+<script>
+export default {
+  props: {
+    data: {
+      type: Object,
+      required: true,
+    },
   },
-  {
-    id: "project",
-    title: "IoT Garagenöffner",
-    image: "https://picsum.photos/400/300",
-  },
-  {
-    id: "rainmaker",
-    title: "Timecube",
-    image: "https://picsum.photos/400/300",
-  },
-];
+};
 </script>
