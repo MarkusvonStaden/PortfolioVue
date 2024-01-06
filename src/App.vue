@@ -12,7 +12,7 @@ import Modal from "./components/modals/Modal.vue";
     <Hello class="snap-start" />
     <About class="snap-start" />
     <List :data="experience" class="snap-start" />
-    <Projects class="snap-start" />
+    <Projects :data="proj" class="snap-start" />
     <List :data="certificates" class="snap-start" />
     <List :data="hackathons" class="snap-start" />
     <Footer class="snap-start" />
@@ -28,22 +28,25 @@ const experience = {
       date: "2023 - now",
       title: "Teamlead Technology",
       company: "Hochschule Aalen",
-      file: "Teamlead.md",
+      content: "Teamlead.md",
     },
     {
       date: "2022",
       title: "Bachelors Thesis",
       company: "Projektraum Reger",
+      content: "Bachelor.md",
     },
     {
       date: "2021 - 2023",
       title: "Technology Consultant",
       company: "Hochschule Aalen",
+      content: "Consultant.md",
     },
     {
       date: "2021",
       title: "Intern - Corporate Research",
       company: "Mahle",
+      content: "Mahle.md",
     },
   ],
 };
@@ -55,35 +58,38 @@ const certificates = {
       date: "2023 - now",
       title: "Scholarship",
       company: "German Academic Scholarship Foundation",
+      content: "Studienstiftung.md",
     },
     {
       date: "2021",
       title: "Manual Intervention Tracking in Automated Production",
       company: "Patent DE102021105260B3",
+      content: "Patent.md",
     },
     {
       date: "2020",
       title: "AUKOM 1",
       company: "Hochschule Aalen",
+      content: "AUKOM.md",
     },
   ],
 };
 
 const proj = [
   {
-    date: "2021",
-    title: "Aalen City App",
-    company: "Hochschule Aalen",
+    image: "https://picsum.photos/400",
+    title: "Smart Planter",
+    content: "Planter.md",
   },
   {
-    date: "2020",
-    title: "Aalen City App",
-    company: "Hochschule Aalen",
+    image: "https://picsum.photos/400",
+    title: "SpotiVote",
+    content: "Spotivote.md",
   },
   {
-    date: "2019",
-    title: "Aalen City App",
-    company: "Hochschule Aalen",
+    image: "https://picsum.photos/400",
+    title: "Garage Door Opener with Licenceplate Recognition",
+    content: "Garage.md",
   },
 ];
 
@@ -94,20 +100,21 @@ const hackathons = {
       date: "2022",
       title: "Ostalb Hackathon",
       company: "Challenge: Voith (1st Place)",
+      content: "Ostalb.md",
     },
     {
       date: "2020, 2021, 2022",
       title: "Packaging Valley Hackathon",
       company:
         "Challenges: Digital machine logbook (Patent), Optical monitorin of vital signs, Automatic user authentication on machines",
+      content: "PackagingValley.md",
     },
     {
       date: "2023",
       title: "Smart Green Island Makeathon, Gran Canaria",
       company: "Challenge: Detection and tracking of plastic in open waters",
+      content: "SmartGreen.md",
     },
   ],
 };
 </script>
-
-<style scoped></style>
