@@ -28,6 +28,7 @@ const experience = {
       date: "2023 - now",
       title: "Teamlead Technology",
       company: "Hochschule Aalen",
+      file: "Teamlead.md",
     },
     {
       date: "2022",

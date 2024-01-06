@@ -1,8 +1,8 @@
 <script setup>
 import { useModal } from "../../composables/useModal";
+import { marked } from "marked";
 
 const modal = useModal();
-const modalRef = "ref(null)";
 </script>
 
 <template>
@@ -14,39 +14,14 @@ const modalRef = "ref(null)";
         @click.self="modal.hideModal()"
       >
         <div
-          class="bg-gray-800 rounded-2xl bg-clip-padding backdrop-filter bg-opacity-40 border border-slate-500 w-3/4 h-3/4 p-10 text-slate-200 place-items-center flex flex-col"
+          class="flex flex-col h-3/4 w-3/4 overflow-hidden bg-gray-800 rounded-2xl bg-clip-padding backdrop-filter bg-opacity-40 border border-slate-500 p-0 text-slate-200 place-items-center"
         >
-          <div class="w-full h-1/5">
-            <h1 class="text-5xl font-sans font-thin">Teamlead Technology</h1>
-            <p class="font-mono">Hochschule Aalen, Digital Learning Team</p>
-          </div>
-          <div class="flex h-3/5 flex-grow">
-            <p class="font-sans w-3/4 h-full">
-              As Team Lead for Technology in the Digital Learning Team at
-              Hochschule Aalen, I spearhead the coordination and management of
-              the technology team, focusing on the development and
-              implementation of cutting-edge learning and teaching technologies.
-              <br />
-              My role involves overseeing digitalization projects of educational
-              content, which includes budget planning and resource allocation. I
-              collaborate closely with faculty and administrative staff to
-              identify and implement technology solutions that enhance teaching
-              and learning processes.
-              <br />
-              A key part of my job is to promote ongoing professional
-              development and skill-building within the team through regular
-              training sessions and workshops.
-              <br />
-              I also stay abreast of new technology trends in the educational
-              sector, ensuring that Hochschule Aalen remains at the forefront of
-              digital education innovation. Additionally, I am responsible for
-              ensuring compliance with data protection and security standards in
-              the implementation of digital learning tools.
-            </p>
-            <div class="w-1/4 h-full"></div>
-          </div>
+          <div
+            class="p-10 overflow-hidden prose-invert w-full max-h-full overflow-y-auto prose-lg prose-h2:font-mono prose-h2:text-lg prose-headings:m-0 prose-h2:mb-5 prose-img:rounded"
+            v-html="marked.parse(modal.modalContent.value)"
+          />
           <button
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg my-3"
             @click="modal.hideModal()"
           >
             Close
