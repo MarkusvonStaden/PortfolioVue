@@ -1,3 +1,14 @@
+<script setup>
+import { useModal } from "../composables/useModal";
+
+const modal = useModal();
+
+function openModal(content) {
+  modal.updateModalContent(content);
+  modal.showModal();
+}
+</script>
+
 <template>
   <div
     class="bg-[#131316] min-h-screen text-slate-100 grid place-items-center content-center -z-10"
@@ -8,7 +19,8 @@
     <div class="w-2/3 px-15 py-5 opacity-100">
       <div
         v-for="data in data.data"
-        class="m-0 p-10 border-l-2 hover:box-accent hover:text-[#131316] ease-in-out duration-100 hover:ml-2"
+        class="m-0 p-10 border-l-2 hover:box-accent hover:text-[#131316] ease-in-out duration-100 hover:ml-2 cursor-pointer"
+        @click="openModal(data.file)"
       >
         <div class="relative z-10 group">
           <p class="font-mono text-xl">
@@ -18,7 +30,6 @@
           <p class="text-2xl z-10">{{ data.company }}</p>
         </div>
       </div>
-      <!-- <exp_item v-for="item in expItems" :experience="item" /> -->
     </div>
   </div>
 </template>
