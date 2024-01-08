@@ -1,3 +1,14 @@
+<script setup>
+import { useModal } from "../composables/useModal";
+
+const modal = useModal();
+
+function openModal(content) {
+  modal.updateModalContent(content);
+  modal.showModal();
+}
+</script>
+
 <template>
   <div
     class="bg-[#131316] min-h-screen text-slate-100 grid place-items-center content-center -z-10"
@@ -9,6 +20,7 @@
       <a
         v-for="project in data"
         class="project z-10 overflow-hidden relative inline-block rounded-2xl group min-w-fit max-w-lg w-auto aspect-square hover:shadow-[0px_0px_100px_10px_rgba(109,40,217)] hover:shadow-cyan-400/20 cursor-pointer"
+        @click="openModal(project.content)"
       >
         <img
           :src="project.image"

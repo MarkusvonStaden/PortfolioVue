@@ -8,7 +8,7 @@ import Modal from "./components/modals/Modal.vue";
 </script>
 
 <template>
-  <div class="snap-mandatory snap-y overflow-y-scroll h-screen">
+  <div class="snap-mandatory snap-y overflow-y-scroll h-screen no-scrollbar">
     <Hello class="snap-start" />
     <About class="snap-start" />
     <List :data="experience" class="snap-start" />
@@ -77,19 +77,19 @@ const certificates = {
 
 const proj = [
   {
-    image: "https://picsum.photos/400",
+    image: "https://picsum.photos/seed/1/800",
     title: "Smart Planter",
     content: "Planter.md",
   },
   {
-    image: "https://picsum.photos/400",
+    image: "https://picsum.photos/seed/2/800",
     title: "SpotiVote",
     content: "Spotivote.md",
   },
   {
-    image: "https://picsum.photos/400",
-    title: "Garage Door Opener with Licenceplate Recognition",
-    content: "Garage.md",
+    image: "https://picsum.photos/seed/3/800",
+    title: "TimeCube",
+    content: "TimeCube.md",
   },
 ];
 

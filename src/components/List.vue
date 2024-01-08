@@ -20,7 +20,7 @@ function openModal(content) {
       <div
         v-for="data in data.data"
         class="m-0 p-10 border-l-2 hover:box-accent hover:text-[#131316] ease-in-out duration-100 hover:ml-2 cursor-pointer"
-        @click="openModal(data.file)"
+        @click="openModal(data.content)"
       >
         <div class="relative z-10 group">
           <p class="font-mono text-xl">
