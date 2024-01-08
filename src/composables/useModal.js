@@ -17,7 +17,7 @@ export function useModal() {
     return {
         showModal: () => show.value = true,
         hideModal: () => show.value = false,
-        updateModalContent: (content) => modalContent.value = loadMarkdown('src/assets/' + content),
+        updateModalContent: (content) => modalContent.value = loadMarkdown('content/' + content),
         show,
         modalContent
     }
