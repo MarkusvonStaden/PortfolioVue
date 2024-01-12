@@ -1,31 +1,25 @@
-# Praxissemester bei MAHLE: Entwicklung eines Prototyps für Neue Klimatechnologie
+# Internship - Research and Development
 
-## Einleitung
+## MAHLE
 
-Im Rahmen meines Praxissemesters bei **MAHLE**, einem führenden Anbieter im Automobilsektor, hatte ich die einzigartige Gelegenheit, an der Spitze der technologischen Innovation zu arbeiten. Mein Hauptprojekt war die Entwicklung eines Prototyps für eine neue Klimatechnologie.
+### Summary
 
-### Ziele des Projekts
+As part of my degree, I completed a 6-month internship in advance development at MAHLE. MAHLE is a leading international development partner and supplier to the automotive industry and a pioneer for the mobility of tomorrow. The product portfolio covers all important aspects of the powertrain and air conditioning technology - for drives with combustion engines as well as for electromobility.
 
-- **Innovation in der Klimatechnik:** Entwicklung eines Prototyps, der neue Maßstäbe in Effizienz und Umweltfreundlichkeit setzt.
-- **Integration in bestehende Systeme:** Sicherstellen, dass die neue Technologie mit aktuellen Fahrzeugsystemen kompatibel ist.
-- **Nachhaltigkeit:** Beitrag zur Reduzierung des ökologischen Fußabdrucks in der Automobilindustrie.
+### Duties
 
-### Meine Rolle und Verantwortlichkeiten
+- Collaboration in a project to develop a control system for a demonstrator for a new type of thermal actuator.
 
-- **Forschung und Entwicklung:** Durchführung von Forschungsarbeiten zur Identifikation der effizientesten und nachhaltigsten Technologien.
-- **Prototyp-Entwicklung:** Entwurf und Bau des Prototyps unter Berücksichtigung von Effizienz, Kosten und Produktionsfähigkeit.
-- **Teamarbeit:** Enge Zusammenarbeit mit Ingenieuren und Fachexperten.
+- Implementation of the software control of a hardware controller and integration into the overall system.
 
-### Herausforderungen und Erfolge
+- Carrying out functional tests of the hardware controller in the laboratory
 
-- **Innovationsdruck:** Entwicklung eines marktfähigen Produkts unter Einhaltung straffer Zeitpläne.
-- **Technische Herausforderungen:** Überwindung technischer Hürden bei der Implementierung neuer Technologien.
-- **Erfolgreiche Demonstration:** Der Prototyp wurde erfolgreich intern präsentiert und erhielt positives Feedback für die Weiterentwicklung.
+- Development of automated software tests for the overall system
 
-### Fazit
+- Research and prototypical implementation of the overall system in the context of a new software framework.
 
-Dieses Praxissemester bei MAHLE war eine unglaublich bereichernde Erfahrung, die mir nicht nur wertvolle Einblicke in die Welt der Klimatechnologien bot, sondern auch meine Fähigkeiten in Forschung, Entwicklung und Teamarbeit erheblich erweiterte. Ich freue mich darauf, diese Erkenntnisse in meiner weiteren beruflichen Laufbahn einzusetzen.
+### Conclusion
 
----
+This internship semester at MAHLE was an incredibly rewarding experience that not only provided me with valuable insight into the world of air conditioning technologies, but also greatly enhanced my research, development and teamwork skills. I look forward to using these insights in my future career.
 
-_Mein Praxissemester bei MAHLE war ein entscheidender Schritt in meiner beruflichen Entwicklung und ein unvergessliches Erlebnis in meinem Bildungsweg._
+[Reference](/content/Mahle.pdf) (German)

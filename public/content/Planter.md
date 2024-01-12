@@ -1,33 +1,30 @@
-# Intelligent Blumentopf Projekt
+# Smart Flowerpot
 
-## Projektübersicht
+## IoT Flowerpot equipped with various sensors
 
-Dieses Projekt umfasst die Entwicklung eines intelligenten Blumentopfs, der durch fortschrittliche Technologien in der Pflanzenpflege unterstützt. Das Ziel war es, einen Blumentopf zu schaffen, der die Umgebung einer Pflanze überwacht und optimiert.
+### Idea
 
-## Komponenten des Projekts
+The main concept of the project is to develop a smart flower pot that is able to give the user feedback on the condition of the plant.
+This signals when the plant needs water or requires further care. In addition, an associated website
+will provide the user with relevant data and information about the plant.
 
-### 3D-Modellierung
+### Objective
 
-- **Design**: Entwurf und Gestaltung des Blumentopfs unter Berücksichtigung ästhetischer und funktionaler Aspekte.
-- **3D-Druck**: Umsetzung des Designs durch hochpräzisen 3D-Druck.
+The flower pot should be able to record important parameters such as soil moisture, temperature, humidity, air pressure and brightness, which are crucial for the well-being of the plant. This data should be evaluated and the user should be informed visually if defined limit values are exceeded. To offer the user flexibility, the flower pot should have a rechargeable battery.
 
-### Platinenentwicklung
+The flowerpot itself should be 3D printed. In order to generate as little waste as possible, as little support material as possible should be required. The electronics should be housed on a self-developed circuit board. Since an old smartphone battery is already available, the battery protection circuit should be analyzed in order to develop a corresponding circuit for battery management.
 
-- **Schaltungsdesign**: Entwurf einer maßgeschneiderten Platine, die alle benötigten Sensoren und Mikrocontroller integriert.
-- **Prototyping**: Erstellung eines funktionsfähigen Prototyps der Platine.
+The sensor data should be recorded and transmitted at regular intervals. The rest of the time, the system should be in an energy-saving state.
+The data should be available on a website. It should also be possible to upload firmware updates via the website. In order to come closer to a professional standard in the development process, mainly components from the professional sector and not from the hobby sector should be used.
 
-### Softwareentwicklung
+### Implementation
 
-- **Embedded Software**: Programmierung der Firmware zur Steuerung der Sensoren und Datenverarbeitung.
-- **Server-Software**: Entwicklung einer Backend-Lösung zur Datenspeicherung und Analyse.
+- Flowerpot
 
-## Funktionen
+  The design of the intelligent flower pot was divided into three main components in order to optimally realize the realize the desired functions optimally.
 
-- **Temperatursensor**: Überwachung der Umgebungstemperatur für optimales Pflanzenwachstum.
-- **Luftfeuchtigkeitssensor**: Kontrolle der Luftfeuchtigkeit, wichtig für bestimmte Pflanzentypen.
-- **Bodenfeuchtigkeitssensor**: Messung der Bodenfeuchtigkeit, um angemessene Bewässerung zu gewährleisten.
-- **Helligkeitssensor**: Überwachung der Lichtverhältnisse, entscheidend für die Photosynthese.
+  The inner pot serves as the main container for the plant. A self-developed circuit board containing the microcontroller and the associated sensors is attached to its underside.
 
-## Schlussfolgerung
+  The inner pot is placed inside the planter. The lower part of the planter is printed in transparent PLA. The purpose of this is to allow ambient light to hit the light sensor and the glow of the notification LED to be visible from the outside. In order to make the pot visually appealing, curved curved ribs were arranged on the outside.
 
-Dieses Projekt verbindet innovative Technologien mit Pflanzenpflege, um eine optimierte Umgebung für das Wachstum und die Pflege von Pflanzen zu schaffen. Durch die Kombination von 3D-Modellierung, Elektronik und Softwareentwicklung wurde ein einzigartiger und funktionaler intelligenter Blumentopf geschaffen.
+  The coaster serves as the basis for the entire construction. It houses both the battery and the special circuit board for battery management. Through the use of pogo pins the circuit board in the inner pot with the necessary energy.

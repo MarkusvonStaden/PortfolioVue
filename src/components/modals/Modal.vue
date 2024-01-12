@@ -12,12 +12,15 @@ const modal = useModal();
         class="fixed top-0 left-0 w-screen h-screen z-50 grid place-items-center bg-black bg-opacity-30 backdrop-blur-lg"
         v-if="modal.show.value"
         @click.self="modal.hideModal()"
+        @keydown.esc="modal.hideModal()"
+        tabindex="0"
+        focus
       >
         <div
           class="flex flex-col h-3/4 w-3/4 overflow-hidden bg-gray-700 rounded-2xl bg-clip-padding backdrop-filter bg-opacity-80 p-0 text-slate-200 place-items-center"
         >
-          <div
-            class="p-10 overflow-hidden prose-invert w-full max-h-full overflow-y-auto prose-lg prose-h2:font-mono prose-h2:text-lg prose-headings:m-0 prose-h2:mb-5 prose-img:rounded no-scrollbar list-disc"
+          <article
+            class="p-10 overflow-hidden prose-invert w-full max-h-full overflow-y-auto prose prose-lg prose-h2:font-mono prose-h2:text-lg prose-headings:m-0 prose-h2:mb-5 prose-img:rounded no-scrollbar list-disc max-w-none"
             v-html="marked.parse(modal.modalContent.value)"
           />
           <button

@@ -43,7 +43,7 @@ const experience = {
       content: "Consultant.md",
     },
     {
-      date: "2021",
+      date: "2020 - 2021",
       title: "Intern - Corporate Research",
       company: "Mahle",
       content: "Mahle.md",

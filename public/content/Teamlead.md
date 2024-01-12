@@ -1,32 +1,30 @@
 # Teamlead Technology
 
-## Hochschule Aalen - Digital Learning Team
+## Aalen University - Digital Learning Team
 
----
+### Job Description
 
-### Aufgabenbeschreibung
+In 2023, my colleague and I took over the leadership of the Technology Department of the Digital Learning Team at Aalen University.
+In this role, we are responsible for the digitization of teaching.
+We evaluate new tools and implement them as needed.
+To advance the digitization of teaching, we also develop our own solutions.
 
-2023 haben mein Kollege und ich die Leitung der Technologie-Abteilung des Digital Learning Teams der Hochschule Aalen übernommen.
-In dieser Rolle sind wir für die Digitalisierung der Lehre zuständig.
-Wir prüfen neue Tools und implementieren diese bei Bedarf.
-Um die Digitalisierung der Lehre voranzutreiben, entwickeln wir auch eigene Lösungen.
+In addition to these tasks, we also offer support to students and lecturers in using the Canvas learning platform and other tools.
+Furthermore, we assist startups and companies in developing prototypes and implementing projects.
 
-Neben diesen Aufgaben bieten wir Studierenden und Dozierenden auch Support bei der Nutzung der Lernplattform Canvas und anderer Tools an.
-Außerdem unterstützen wir Startups und Unternehmen bei der Entwicklung von Prototypen und der Umsetzung von Projekten.
-
-### Projekte
+### Projects
 
 - Chatbot
 
-  > Um den Studierenden ChatGPT zu Verfügung zu stellen, haben wir eine Anwendung entiwckelt, die einen Chatbot auf Basis von ChatGPT in die Lernplattform Canvas integriert.
-  > Durch diese Integration können Studierende direkt in Canvas mit dem Chatbot interagieren.
-  > Um Datenschutz und Datensicherheit zu gewährleisten, haben wir die Anwendung so entwickelt, dass die Daten der Studierenden nicht an Dritte weitergegeben werden.
-  > Das Backend dieser Anwendung ist in Python mit FastAPI geschrieben und läuft auf einem Server der Hochschule Aalen.
-  > Das Frontend wurde mit Vue entwickelt und ist per LTI 1.3 in Canvas integriert.
-  > Dieses Projekt ist die Grundlage für einen Chatbot der für alle Hochschulen des Landes Baden-Württemberg zur Verfügung gestellt werden soll.
+  To provide students with ChatGPT, we have developed an application that integrates a ChatGPT-based chatbot into the Canvas learning platform.
+  Through this integration, students can interact directly with the chatbot within Canvas.
+  To ensure data privacy and security, we have developed the application in such a way that student data is not shared with third parties.
+  The backend of this application is written in Python using FastAPI and runs on a server at Aalen University.
+  The frontend was developed using Vue and is integrated into Canvas via LTI 1.3.
+  This project serves as the foundation for a chatbot that will be made available to all universities in the state of Baden-Württemberg.
 
-- Semesterwechsel
+- Semester Transition
 
-  > Um den Dozierenden den Semesterwechsel zu erleichtern, haben wir eine Anwendung entwickelt, die die Kurse des letzten Semesters in das neue Semester kopiert.
-  > Die Anwendung ermöglicht es, die Kurse in Canvas mit dem Vorlesungsplan zu verknüpfen.
-  > Um dies zu ermöglichen haben wir in Kooperation mit der IT Abteilung der Hochschule Aalen eine Schnittstelle entwickelt, die den Vorlesungsplan aus dem Stundenplan-Tool in Canvas importiert.
+  To facilitate the semester transition for lecturers, we have developed an application that copies courses from the last semester into the new semester.
+  The application allows courses in Canvas to be linked with the lecture schedule.
+  To make this possible, we developed an interface in cooperation with the IT department of Aalen University that imports the lecture schedule from the timetable tool into Canvas. This application has to be maintained and adapted to changes of the LMS API.
