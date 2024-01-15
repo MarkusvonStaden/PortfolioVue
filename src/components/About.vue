@@ -7,10 +7,16 @@
     >
       About Me
     </h1>
-    <div class="box-accent-inv w-2/3 px-10 py-5">
-      <p class="z-10 relative font-mono text-xl">
+    <div class="box-accent-inv w-2/3 px-10 py-5 max-h-min lg:max-h-16">
+      <p class="z-10 relative font-mono text-xl text-black">
         Machine Learning Student and Mechatronics Engineer
       </p>
+
+      <img
+        src="../assets/profile.jpg"
+        alt="Image of me"
+        class="w-1/6 rounded-2xl -translate-y-1/4 object-cover min-h-72 max-h-96 hidden lg:block float-right z-50 relative"
+      />
     </div>
     <div class="w-2/3 z-10 flex gap-20">
       <article
@@ -25,11 +31,6 @@
           </li>
         </ul>
       </article>
-      <img
-        src="../assets/profile.jpg"
-        alt="Image of me"
-        class="w-1/6 rounded-2xl -translate-y-1/4 flex-none object-cover max-h-96 hidden lg:block"
-      />
     </div>
   </div>
 </template>

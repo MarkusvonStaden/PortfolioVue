@@ -7,7 +7,7 @@
       Hi, my Name is <b class="font-bold">Markus</b>
     </h1>
     <div class="box-accent w-2/3 py-5 px-10 text-right">
-      <p class="z-10 relative font-mono text-xl">
+      <p class="z-10 relative font-mono text-xl text-black">
         Machine Learning Student and Mechatronics Engineer
       </p>
     </div>
