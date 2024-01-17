@@ -11,7 +11,7 @@ function openModal(content) {
 
 <template>
   <div
-    class="bg-[#131316] min-h-screen text-slate-100 grid place-items-center content-center -z-10"
+    class="min-h-screen text-slate-100 grid place-items-center content-center -z-10"
   >
     <h1
       class="relative z-10 text-5xl lg:text-7xl lg:w-2/3 lg:m-10 font-extralight font-sans"

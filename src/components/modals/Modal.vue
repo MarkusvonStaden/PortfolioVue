@@ -17,7 +17,7 @@ const modal = useModal();
         focus
       >
         <div
-          class="max-h-screen min-w-3/4 overflow-hidden bg-gray-700 rounded-2xl bg-clip-padding backdrop-filter bg-opacity-80 p-0 text-slate-200 relative"
+          class="max-h-screen min-w-3/4 overflow-hidden bg-gray-700 lg:rounded-2xl bg-clip-padding backdrop-filter bg-opacity-80 p-0 text-slate-200 relative"
         >
           <div
             class="w-full h-8 bg-gradient-to-t from-transparent to-gray-700 top-0 absolute my-0 mx-auto left-1/2 -translate-x-1/2"

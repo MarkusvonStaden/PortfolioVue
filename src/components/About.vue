@@ -1,13 +1,13 @@
 <template>
   <div
-    class="bg-[#131316] min-h-screen text-slate-100 grid place-items-center content-center -z-10"
+    class="min-h-screen text-slate-100 grid place-items-center content-center -z-10"
   >
     <h1
       class="relative text-7xl w-2/3 mx-10 my-5 z-10 font-extralight font-sans"
     >
       About Me
     </h1>
-    <div class="box-accent-inv w-2/3 px-10 py-5 max-h-min lg:max-h-16">
+    <div class="box-accent w-2/3 px-10 py-5 max-h-min lg:max-h-16">
       <p class="z-10 relative font-mono text-xl text-black">
         Machine Learning Student and Mechatronics Engineer
       </p>
@@ -23,11 +23,11 @@
         class="w-1/2 flex-1 p-5 prose prose-lg prose-invert prose-neutral"
       >
         <ul>
-          <li>Passionate Machine Learning Students</li>
+          <li>Passionate Machine Learning Student</li>
           <li>Tinkerer with 3D Printers, Electronics and Programming</li>
           <li>
-            Motivated team player and former member of the volunteer fire
-            department
+            Motivated team player, former member of the volunteer fire
+            department and Committed to a wide range of voluntary activities
           </li>
         </ul>
       </article>

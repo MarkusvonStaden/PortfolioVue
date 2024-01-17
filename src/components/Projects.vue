@@ -11,7 +11,7 @@ function openModal(content) {
 
 <template>
   <div
-    class="bg-[#131316] min-h-screen text-slate-100 grid place-items-center content-center -z-10"
+    class="min-h-lvh md:min-h-screen text-slate-100 grid place-items-center content-center -z-10"
   >
     <h1 class="relative z-10 text-7xl w-2/3 m-10 font-extralight font-sans">
       Projects
@@ -25,13 +25,19 @@ function openModal(content) {
         <img
           :src="project.image"
           alt=""
-          class="lg:grayscale object-cover lg:group-hover:grayscale-0 group-hover:scale-125 duration-500 w-full h-full"
+          class="lg:grayscale object-cover lg:group-hover:grayscale-0 group-hover:scale-125 duration-500 w-full h-full bg-gradient-to-t from-black to-transparent"
         />
-        <h3
-          class="z-10 absolute text-3xl inset-5 font-sans font-medium drop-shadow-lg"
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"
         >
-          {{ project.title }}
-        </h3>
+          <div class="z-10 absolute inset-5">
+            <h3
+              class="absolute bottom-0 drop-shadow-lg font-sans font-medium text-3xl"
+            >
+              {{ project.title }}
+            </h3>
+          </div>
+        </div>
       </a>
     </div>
   </div>
