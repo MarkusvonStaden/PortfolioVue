@@ -22,4 +22,4 @@ As part of my degree, I completed a 6-month internship in advance development at
 
 This internship semester at MAHLE was an incredibly rewarding experience that not only provided me with valuable insight into the world of air conditioning technologies, but also greatly enhanced my research, development and teamwork skills. I look forward to using these insights in my future career.
 
-[Reference](/content/Mahle.pdf) (German)
+[Reference](/files/Mahle.pdf) (German)

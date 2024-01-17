@@ -2,34 +2,37 @@
 
 ## 2022
 
-### Allgemeine Informationen
+### General information
 
-**Datum:** 21. - 23. Oktober 2022  
-**Ort:** Aalen  
-**Schirmherr:** Landrat Dr. Joachim Bläse  
-**Veranstalter:** In Zusammenarbeit mit der Hochschule Aalen, Hochschule für Gestaltung Schwäbisch Gmünd, DHBW Heidenheim, und InnoConsult
+The Ostalb Hackathon 2022, under the motto "From the region - For the region", provided a platform for interdisciplinary teams to solve challenges faced by companies in the region in 48 hours. This hands-on event aimed to develop creative solutions to real-world problems using creativity methods and design thinking.
 
-### Konzept und Ablauf
+#### Challenge:
 
-Der Ostalb Hackathon 2022, unter dem Motto “Aus der Region – Für die Region”, bot eine Plattform für interdisziplinäre Teams, um Herausforderungen von Unternehmen aus der Region in 48 Stunden zu lösen. Dieses praxisorientierte Event zielte darauf ab, kreative Lösungen für reale Problemstellungen zu entwickeln, wobei Kreativitätsmethoden und Design-Thinking angewandt wurden.
+We decided to work on Voith's "Green Production" challenge.
+The task was very general: To make production more environmentally friendly.
+As a starting point, we were given machine data such as capacity utilization and power consumption.
 
-#### Highlights:
+### Our solution
 
-- **Teilnehmer:** Rund 130 Teilnehmer in 28 Teams, bestehend aus Studierenden, Schülern der Oberstufe, und Young Professionals.
-- **Challenges:** Vier Challenges von lokalen Unternehmen in den Bereichen Future Mobility, Data Automation, Digital Twin, und Green Production.
-- **Preisgeld:** Insgesamt 6.000 €, aufgeteilt auf sechs Preise.
+Our idea was to design the machine's scheduling in such a way that the machine's electricity consumption matches the production of the company's own photovoltaic plant.
+If the electricity produced is consumed directly, this has the advantage of minimizing charging and conversion losses when charging a battery storage system.
+In addition, you can take into account not only your own electricity production, but also the current electricity mix and thus reduce CO2 emissions.
 
-### Erfahrungen und Angebote
+Scheduling creates a daily plan of when which part is to be produced on which machine.
+For our solution, we developed a prototype in Python with a front end in React.
+First of all, we used weather data to create a solar power forecast.
+For the prototype, we assumed that the electricity mix would behave in the same way.
+We then designed the detailed planning so that energy-intensive parts are manufactured when a lot of solar power is available.
 
-Teilnehmer hatten die Möglichkeit, in Workshops zu lernen, Networking zu betreiben, und ein Teilnahme-Zertifikat zu erhalten. Die Veranstaltung bot auch ein Rundum-sorglos-Paket mit Vollverpflegung sowie Schlaf- und Duschmöglichkeiten.
+### Perspective
 
-### Gewinner
+As we did not receive any CAD data, we were unable to analyze the files.
+For the idea to work properly, we would have to analyze the machine commands and create a forecast of the power consumption for each part.
+We used dummy data instead.
+In addition, our prototype had no interfaces.
+For the productive use of such a solution, interfaces to the machines as well as software interfaces, e.g. to ERP systems, would have to be provided.
 
-- **Future Mobility:** Team “Die Füxe”
-- **Data Automation:** Team H4B
-- **Digital Twin:** Team System Heros
-- **Green Production:** Team algogrid (wir)
-- **Tech-Award:** Team :)
-- **Community:** Team abort, retry, ignore?
+### Win
 
-Der Ostalb Hackathon 2022 war ein voller Erfolg, gekennzeichnet durch Innovation, kreative Lösungen, und die Stärkung unternehmerischer Fähigkeiten der Teilnehmer. Es bot eine einzigartige Gelegenheit, an realen Herausforderungen zu arbeiten und dabei wertvolle Kontakte zu knüpfen.
+We were able to convince the jury with our solution and won this challenge.
+In addition to the prize money, we were invited by Voith to a factory tour.

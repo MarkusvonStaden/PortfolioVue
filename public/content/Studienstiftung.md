@@ -1,40 +1,32 @@
-# Stipendium und Studienjahr 22/23
+# German Academic Scholarship Foundation
 
-## Ein Überblick
+## Overview
 
-### Persönliche Einleitung
+### General information
 
-- **Name**: Markus von Staden
-- **Studienfach**: Mechatronik/Systems Engineering, Master "Machine Learning und Data Analytics"
-- **Hochschule**: Hochschule Aalen
-- **Fachsemester**: 1 (Master), 10 inkl. Bachelor
+In 2022, my professor and supervisor of my Bachelor's thesis recommended me to the foundation for a scholarship.
+He said I was suitable for this scholarship because of my good grades and my social commitment.
 
-### Studienverlauf und Entscheidungen
+### Social commitment
 
-- **Bachelorabschluss**: Erfolgreicher Abschluss des Bachelorstudiums in Mechatronik.
-- **Masterwahl**: Wechsel vom Mechatronik Master zum Master "Machine Learning und Data Analytics".
-- **Notendurchschnitt**: Erzielt einen beeindruckenden Durchschnitt von 12 in diesem Semester.
+- Fire department
 
-### Außeruniversitäre Aktivitäten
+  Before I moved to Aalen to study, I was an active member of the volunteer fire department in Wiesbaden.
+  As part of this, I not only took part in operations, but also helped to train the youth fire department.
 
-- **Teamleitung**: Übernahme der Teamleitung an der Hochschule.
-- **Hackathon-Erfolge**: Gewinner des Ostalb Hackathon 2022.
-- **Gründungspläne**: Vorhaben zur Unternehmensgründung mit Mitbewohner.
+- Youth forum
 
-### Zukunftspläne
+  I joined the youth forum in Aalen in 2021. The Youth Forum has set itself the mission of representing the interests of young people and young adults in local politics. Together with a friend, I worked on the expansion of local public transport and cycle paths. In this context, we have exchanged ideas with local political players and representatives of mobility providers in order to find the problem areas and improve the overall situation.
 
-- **Veranstaltung**: Planung eines Wettbewerbs an der Hochschule im SoSe 24.
-- **Softwareentwicklung**: Entwicklung eines Prototyps für eine innovative Software.
+- UStA
 
-### Wesentliche Projekte und Erfahrungen
+  In 2021, I also joined the Independent Student Committee (UStA).
+  The UStA is responsible for all aspects of student life, from parties to blood donation campaigns.
+  I'm actively involved in organizing the university cinema.
+  We offer students at the university a movie once a week in a lecture hall. I was also responsible for catering at the AIM, the local careers fair, in 2022 and 2023.
+  Furthermore, I led a group of freshmen on the pub crawl together with my flatmates.
 
-- **Bachelorarbeit**: Entwicklung eines Roboterarms für einen medizinischen Zulieferer.
-- **Engagement**: Beteiligung im unabhängigen Studierendenausschuss (UStA) und Organisation von Events.
-- **Forschung und Wettbewerbe**: Teilnahme an mehreren Makeathons und Hackathons, einschließlich eines internationalen Events auf Gran Canaria.
-- **Digital Learning Team**: Führungsaufgaben in der Digitalisierung der Lehre an der Hochschule.
+- Micromouse
 
-### Reflexion und Einfluss des Stipendiums
-
-- **Entwicklung**: Das Stipendium hat entscheidend zu meiner akademischen und persönlichen Entwicklung beigetragen.
-- **Netzwerkbildung**: Durch das Stipendium konnte ich wichtige Kontakte knüpfen und an einzigartigen Projekten teilnehmen.
-- **Zukunftspläne**: Dank der Unterstützung durch das Stipendium konnte ich mich voll auf meine Studien und zukünftige Berufsziele konzentrieren.
+  My former flatmate and I are currently in the process of organizing a Micromouse competition at the university. At the moment, the individual degree courses have little to do with each other. We want to change that with this competition.
+  Mechatronics engineers, electrical engineers and computer scientists have to work together to develop an maze solving model car.
