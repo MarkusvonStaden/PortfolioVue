@@ -1,9 +1,9 @@
 <template>
   <footer
-    class="flex justify-center items-center gap-10 w-full bg-[#131316] rounded-none h-20"
+    class="flex justify-center items-center gap-10 w-full rounded-none h-20"
   >
     <a
-      class="aspect-square w-10 aspect-square z-20"
+      class="aspect-square w-10 z-20"
       href="https://github.com/MarkusvonStaden"
       target="_blank"
     >
@@ -18,7 +18,7 @@
       </svg>
     </a>
     <a
-      class="aspect-square w-10 aspect-square z-20"
+      class="aspect-square w-10 z-20"
       href="https://www.linkedin.com/in/markusvonstaden/"
       target="_blank"
     >

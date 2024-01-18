@@ -8,13 +8,16 @@ import Modal from "./components/modals/Modal.vue";
 </script>
 
 <template>
-  <div class="snap-mandatory snap-y overflow-y-scroll h-screen no-scrollbar">
-    <Hello class="snap-start" />
-    <About class="snap-start" />
-    <List :data="experience" class="snap-start" />
-    <Projects :data="proj" class="snap-start" />
-    <List :data="certificates" class="snap-start" />
-    <List :data="hackathons" class="snap-start" />
+  <div
+    class="md:snap-mandatory snap-y overflow-y-scroll h-screen no-scrollbar bg-[#131316]"
+  >
+    <Hello class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
+    <About class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
+    <List :data="experience" class="snap-start pb-8 pt-8 md:pb-0" />
+    <List :data="education" class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
+    <Projects :data="proj" class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
+    <List :data="certificates" class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
+    <List :data="hackathons" class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
     <Footer class="snap-start" />
     <Modal />
   </div>
@@ -32,9 +35,9 @@ const experience = {
     },
     {
       date: "2022",
-      title: "Bachelors Thesis",
+      title: "Prototype development of a robotic arm - Bachelor Thesis",
       company: "Projektraum Reger",
-      content: "Bachelor.md",
+      content: "Bachelorarbeit.md",
     },
     {
       date: "2021 - 2023",
@@ -43,10 +46,28 @@ const experience = {
       content: "Consultant.md",
     },
     {
-      date: "2021",
+      date: "2020 - 2021",
       title: "Intern - Corporate Research",
       company: "Mahle",
       content: "Mahle.md",
+    },
+  ],
+};
+
+const education = {
+  title: "Education",
+  data: [
+    {
+      date: "2023 - now",
+      title: "Master of Science - Machine Learning and Data Analytics",
+      company: "Aalen University (Germany)",
+      content: "Master.md",
+    },
+    {
+      date: "2018 - 2023",
+      title: "Bachelor of Engineering - Mechatronics",
+      company: "Aalen University (Germany)",
+      content: "Bachelor.md",
     },
   ],
 };
@@ -77,19 +98,19 @@ const certificates = {
 
 const proj = [
   {
-    image: "https://picsum.photos/seed/1/800",
+    image: "/files/Planter.jpg",
     title: "Smart Planter",
     content: "Planter.md",
   },
   {
-    image: "https://picsum.photos/seed/2/800",
+    image: "/files/smartmockups_lrf40q4x.jpg",
     title: "SpotiVote",
-    content: "Spotivote.md",
+    content: "SpotiVote.md",
   },
   {
     image: "https://picsum.photos/seed/3/800",
-    title: "TimeCube",
-    content: "TimeCube.md",
+    title: "Board Detection",
+    content: "Tafelbild.md",
   },
 ];
 

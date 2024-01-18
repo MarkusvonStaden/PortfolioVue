@@ -1,27 +1,43 @@
-# Bachelors Thesis
+# Bachelor of Engineering - Mechatronics
 
-## Projektraum Reger GmbH
+## Hochschule Aalen
 
----
+### Grades
 
-### Abstract
+| Subject                                                 | Grade   | GPA     |
+| ------------------------------------------------------- | ------- | ------- |
+| **Overall**                                             | **1.4** | **3.6** |
+| Thesis: Prototype development of a robotic arm          | 1.0     | 4.0     |
+| Digital Signal Processing and Machine Learning          | 1.0     | 4.0     |
+| Mobile and Embedded Software Development                | 1.0     | 4.0     |
+| Electronic Circuit Design                               | 1.0     | 4.0     |
+| Advanced Actuators                                      | 1.3     | 3.7     |
+| Technical Scientific Project                            | 1.0     | 4.0     |
+| Management systems and law                              | 1.0     | 4.0     |
+| Mechatronic Project                                     | 1.0     | 4.0     |
+| Business Administration Basics                          | 1.0     | 4.0     |
+| Advanced Computer Science                               | 1.0     | 4.0     |
+| Technical Computer Science and embedded Control Systems | 1.3     | 3.7     |
+| Actuators                                               | 1.0     | 4.0     |
+| Construction with polymers and rapid manufacturing      | 1.0     | 4.0     |
+| Digital Manufactoring                                   | 1.0     | 4.0     |
+| Product Development                                     | 1.0     | 4.0     |
+| Power Electronics                                       | 3.0     | 2.0     |
+| Sensor technology                                       | 1.7     | 3.3     |
+| Advanced Topics in Mathematics                          | 2.7     | 2.3     |
+| System Dynamics                                         | 3.3     | 1.7     |
+| Advanced Engineering Mechanics                          | 2.3     | 2.7     |
+| Measurement Technologies                                | 1.7     | 3.3     |
+| Foundation Course                                       | 2.7     | 2.3     |
 
-The goal of this work was the development of a prototype of a robot arm. This includes the design and construction, as well as the development of the firmware. This work was written in the engineering office "Projektraum Reger GmbH" and was commissioned by a customer. The robot arm was made from commercially available parts, mostly from the hobby sector, as well as 3D printed parts. Both FDM and MSLA 3D printing were used. A Nema 17 motor with a 1:100 planetary gearbox is used as the drive in each axis. TMC5160 are used as motor drivers, which are controlled by an ESP32 via SPI. The developed firmware for the ESP is able to calculate the joint positions for all joints using inverse kinematics from a target position given by the user. It was developed in C++ and uses the ESP-IDF framework provided by the manufacturer of the ESP. Two different joints were developed to achieve the 5 degrees of freedom required for the intended application.
+### Optional additional Subjects
 
-### Key Achievements:
+| Subject                                             | Grade | GPA |
+| --------------------------------------------------- | ----- | --- |
+| Software Prototyping                                | 2.0   | 3.0 |
+| Interface Design                                    | 1.7   | 3.3 |
+| coordinate measurement technology                   | 1.7   | 3.3 |
+| Advanced Topics in Mechatronics: Robotics           | 2.0   | 3.0 |
+| Technical optics and optical measurement technology | 2.3   | 2.7 |
 
-- **Feasibility Analysis and Client Collaboration:** Assessed the feasibility of initial ideas, leading to optimized design solutions. Facilitated client discussions and visualized complex concepts using a simplified 3D model.
-
-- **Research and Development:** Conducted comprehensive research on existing robot arms and open-source projects, leveraging findings to inform and enhance design decisions.
-
-- **3D Modeling and Prototyping:** Utilized Autodesk Fusion 360 for 3D modeling and employed various 3D printing techniques for prototyping, demonstrating proficiency in both digital and physical realms of manufacturing.
-
-- **Mechanical Engineering Expertise:** Integrated essential mechanical components such as aluminum pipes, Nema 17 motors, planetary gearboxes, and bevel gears, showcasing adeptness in mechanical design and functionality.
-
-- **Electronics and Control System Design:** Engineered a sophisticated control system using an Espressif ESP32 microcontroller and Trinamic TMC5160 motor drivers, highlighting skills in electronic engineering and system controls.
-
-- **Firmware Development and Debugging:** Orchestrated the firmware development process from conceptualization to debugging, employing advanced tools and methodologies to ensure robust performance.
-
-- **Code Organization and Innovative Testing Approaches:** Demonstrated exceptional organizational skills in code management and implemented innovative testing methods using Jupyter with Xeus-Cling for efficient and agile development processes.
-
-This project underscores my comprehensive skill set in robotics and mechanical engineering, reflecting a strong proficiency in technical design, problem-solving, and project management.
+[Certificate](/files/Bachelorzeugnis.pdf) (German)

@@ -16,10 +16,10 @@
 
 @layer components {
   .box-accent {
-    @apply relative rounded-2xl bg-gradient-to-r from-cyan-200 via-blue-800 to-indigo-800 after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:to-indigo-700 after:from-cyan-200 after:via-blue-800;
+    @apply relative rounded-2xl bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-500 after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:to-indigo-600 after:from-cyan-300 after:via-blue-600;
   }
   .box-accent-inv {
-    @apply relative rounded-2xl bg-gradient-to-r to-cyan-200 via-blue-800 from-indigo-800 after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:from-indigo-700 after:to-cyan-200 after:via-blue-800;
+    @apply z-0 relative rounded-2xl bg-gradient-to-r to-cyan-300 via-blue-400 from-indigo-500 after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:from-indigo-600 after:to-cyan-300 after:via-blue-600;
   }
   .glow {
     @apply relative after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:to-sky-500 after:from-teal-300;

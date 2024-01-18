@@ -1,36 +1,13 @@
 # AUKOM 1
 
-## Zertifikat
+## Measurement technology certificate
 
-### Überblick
+### Overview
 
-Das **AUKOM 1 Zertifikat** ist ein anerkanntes Zertifikat, das grundlegende Kenntnisse in der industriellen Messtechnik bestätigt. Es richtet sich an Fachkräfte, die in der Qualitätssicherung und Fertigungsmesstechnik tätig sind.
+As part of our studies, we had the opportunity to take the exam for the AUKOM 1 certification.
+The AUKOM 1 certificate is a recognized certificate that confirms basic knowledge in industrial metrology.
+It is aimed at specialists working in quality assurance and production metrology.
 
-### Kursinhalte
+### Description
 
-- **Grundlagen der Messtechnik:** Einführung in die Messtechnik, Messprinzipien und Messgeräte.
-- **Messunsicherheit:** Verständnis und Berechnung der Messunsicherheit.
-- **Messstrategien:** Planung und Durchführung von Messungen.
-- **Normen und Standards:** Wichtige Normen in der Messtechnik.
-
-### Lernziele
-
-Nach Abschluss des Kurses sollten die Teilnehmer:
-
-1. Grundlegende Messtechniken verstehen und anwenden können.
-2. Messunsicherheiten erkennen und berechnen können.
-3. Messstrategien planen und umsetzen können.
-4. Relevante Normen und Standards in der Messtechnik kennen.
-
-### Zielgruppe
-
-- Techniker und Ingenieure in der Fertigung und Qualitätssicherung.
-- Mitarbeiter in der metrologischen Prüfung und Kalibrierung.
-
-### Zertifizierung
-
-Nach erfolgreichem Abschluss des Kurses erhalten die Teilnehmer das AUKOM 1 Zertifikat, welches ihre Fähigkeiten in der Grundlagenmesstechnik bestätigt.
-
----
-
-_Für weitere Informationen besuchen Sie bitte die [AUKOM-Website](https://www.aukom.info/)._
+The AUKOM Level 1 course provides basic knowledge of production metrology for beginners and advanced metrologists. The training focuses on dimensional tolerancing, programming basics, measurement sequence planning and an introduction to sensor and machine technology. Level 1 of AUKOM training enables metrology technicians to reduce measurement uncertainties and ensure that their measurement results are reliable and comparable.

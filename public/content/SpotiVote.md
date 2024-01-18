@@ -1,29 +1,21 @@
-# Spotify Voting System Project
+# SpotiVote
 
-## privates Projekt
+## Voting System for Spotify
 
 ### Overview
 
-This project presents a **Voting System for Spotify**, designed to enhance music selection at parties. It's a robust platform where participants can vote for their preferred songs, and the most popular choices are played next.
-
-### Features
-
-- **Interactive Voting**: Users can vote for their favorite tracks.
-- **Real-time Updates**: See live changes in song preferences.
-- **User-Friendly Interface**: Developed with VueJS for a seamless experience.
+This project is a voting system for Spotify to simplify music selection at events. The idea is that every guest can vote for songs on a website. When the current song is finished, the most popular song is played next and the votes for this song are reset.
 
 ### Technical Details
 
-#### Frontend
+- #### Frontend
 
-- **Technology**: VueJS
-- **Functionality**: Enables users to interact with the system, vote for songs, and view current rankings.
+  The front end is developed in Vue. It makes it possible to see the currently most popular songs, search for songs and vote for these songs. Votes are saved in the session so that they can be revoked.
 
-#### Backend
+- #### Backend
 
-- **Technology**: Python
-- **Functionality**: Manages the voting logic, communicates with Spotify's API, and ensures that the most voted song is played next.
+  The backend was written in Python. It allows users to log in to Spotify via oAuth2. Once a user is logged in, the endpoints for searching and voting are available. The backend also controls music playback via the Spotify API.
 
-### Conclusion
+  The songs and votes are stored in a Redis database.
 
-This Spotify Voting System is an innovative solution for party music management, ensuring that the most popular songs among guests are played, enhancing the overall party experience.
+  I am currently working on converting the backend to ExpressJS in order to gain experience here.

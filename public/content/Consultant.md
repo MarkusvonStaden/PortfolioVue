@@ -1,37 +1,17 @@
-# Rolle als Technology Consultant an der Hochschule Aalen
+# Technology Consultant
 
-## Test
+## Aalen University - Digital Learning Team
 
-### Überblick
+### Job Description
 
-In meiner Funktion als Technology Consultant an der Hochschule Aalen habe ich eine maßgeschneiderte Softwarelösung für das Corona Testzentrum der Hochschule entwickelt. Diese Initiative war ein wesentlicher Bestandteil der Bemühungen der Hochschule, auf die COVID-19-Pandemie zu reagieren und die Sicherheit und Gesundheit der Studierenden und Mitarbeiter zu gewährleisten.
+During the COVID-19 pandemic, Aalen University has set up a test center to ensure the safety and health of students and staff. In this context, the university hired me as a tester. I was responsible for carrying out COVID-19 tests and documenting the test results. As the work was quite monotonous, I developed a software solution that largely automated the work. I presented this software to my superior. He likes the idea and offered me a job as a Technology Consultant. Together we added more features to this software. Since then, my tasks have been to develop and implement various software solutions for the university.
 
-### Projektziele
+### Projects
 
-- Entwicklung einer benutzerfreundlichen Software zur Verwaltung von COVID-19-Tests.
-- Sicherstellung einer effizienten und genauen Erfassung von Testergebnissen.
-- Unterstützung der Hochschule bei der Einhaltung gesetzlicher Vorgaben und Datenschutzrichtlinien.
+- Software for test center
 
-### Herausforderungen und Lösungen
+  Users could register on a website. Based on the test used, the tester was shown the corresponding instructions. Testers then only had to enter the result. The certificate was then issued automatically and sent by email.
 
-- Analyse der spezifischen Anforderungen des Testzentrums.
-- Implementierung einer sicheren Datenbank zur Speicherung sensibler Gesundheitsdaten.
-- Entwicklung einer intuitiven Benutzeroberfläche für eine einfache Bedienung durch das medizinische Personal.
+- LMS Admin Panel
 
-### Technologien und Werkzeuge
-
-- Einsatz moderner Softwareentwicklungswerkzeuge und -praktiken.
-- Integration von Datenverarbeitungs- und Sicherheitsprotokollen.
-- Anwendung agiler Methoden für eine schnelle und reaktive Entwicklung.
-
-### Ergebnisse
-
-- Erfolgreiche Implementierung der Software, die eine schnelle und genaue Verarbeitung von Testdaten ermöglicht.
-- Positive Rückmeldungen von Nutzern und Verwaltungspersonal.
-- Beitrag zur Aufrechterhaltung eines sicheren Campusumfelds während der Pandemie.
-
-### Zukünftige Perspektiven
-
-- Kontinuierliche Verbesserung und Anpassung der Software an veränderte Anforderungen.
-- Ausweitung der Funktionalitäten für andere gesundheitsbezogene Anwendungen.
-- Mögliche Übertragung des Systems auf andere Hochschulen oder medizinische Einrichtungen.
+  The LMS lacked some important administrative features for us, such as the creation of temporary users. An admin panel was developed to enable these features.
