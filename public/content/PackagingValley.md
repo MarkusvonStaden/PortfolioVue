@@ -8,9 +8,7 @@ Packaging Valley is an alliance of regional packaging companies.
 In 2020, they organized the **Packaging Valley Makeathon** for the first time.
 The participants were able to work on different tasks at the companies' locations.
 
-### 2020
-
-#### Digital machine logbook, 2020
+### Digital machine logbook, 2020
 
 Currently, interventions due to machine malfunctions are recorded manually in a machine logbook.
 This is very error-prone, time-consuming and therefore not suitable for process optimization.
@@ -24,7 +22,7 @@ Using this data, we were able to distinguish between 2 cases.
 
 Syntegon liked this idea and pursued it internally and applied for a patent. (See patents section)
 
-#### Optical monitoring of vital signs, 2021
+### Optical monitoring of vital signs, 2021
 
 In 2021, the task was very open, we were given a tour of the production halls and asked to come up with ideas ourselves.
 Our team decided to increase occupational safety.
@@ -37,7 +35,7 @@ In addition, we found a project that makes it possible to detect the respiratory
 We combined these projects and developed a front end for visualization.
 Finally, we tried to detect serious injuries.
 
-#### Automatic user authentication on machines
+### Automatic user authentication on machines, 2022
 
 In 2022, we wanted to ensure that only authorized users can operate the machine.
 Initially, we tried to perform authorization by voice recognition.

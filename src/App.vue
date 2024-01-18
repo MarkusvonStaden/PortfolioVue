@@ -14,6 +14,7 @@ import Modal from "./components/modals/Modal.vue";
     <Hello class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
     <About class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
     <List :data="experience" class="snap-start pb-8 pt-8 md:pb-0" />
+    <List :data="education" class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
     <Projects :data="proj" class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
     <List :data="certificates" class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
     <List :data="hackathons" class="snap-start pb-8 pt-8 md:pt-0 md:pb-0" />
@@ -36,7 +37,7 @@ const experience = {
       date: "2022",
       title: "Prototype development of a robotic arm - Bachelor Thesis",
       company: "Projektraum Reger",
-      content: "Bachelor.md",
+      content: "Bachelorarbeit.md",
     },
     {
       date: "2021 - 2023",
@@ -49,6 +50,24 @@ const experience = {
       title: "Intern - Corporate Research",
       company: "Mahle",
       content: "Mahle.md",
+    },
+  ],
+};
+
+const education = {
+  title: "Education",
+  data: [
+    {
+      date: "2023 - now",
+      title: "Master of Science - Machine Learning and Data Analytics",
+      company: "Aalen University (Germany)",
+      content: "Master.md",
+    },
+    {
+      date: "2018 - 2023",
+      title: "Bachelor of Engineering - Mechatronics",
+      company: "Aalen University (Germany)",
+      content: "Bachelor.md",
     },
   ],
 };

@@ -1,17 +1,43 @@
-# Prototype development of a robotic arm - Bachelor Thesis
+# Bachelor of Engineering - Mechatronics
 
-## Projektraum Reger GmbH
+## Hochschule Aalen
 
-### Summary
+### Grades
 
-The goal of this work was the development of a prototype of a robot arm for medical applications. This includes the design and construction, as well as the development of the firmware. This work was written in the engineering office "Projektraum Reger GmbH" and was commissioned by a customer. The robot arm was made from commercially available parts, mostly from the hobby sector, as well as 3D printed parts. Both FDM and MSLA 3D printing were used. A Nema 17 motor with a 1:100 planetary gearbox is used as the drive in each axis. TMC5160 are used as motor drivers, which are controlled by an ESP32 via SPI. The developed firmware for the ESP is able to calculate the joint positions for all joints using inverse kinematics from a target position given by the user. It was developed in C++ and uses the ESP-IDF framework provided by the manufacturer of the ESP. Two different joints were developed to achieve the 5 degrees of freedom required for the intended application. The Thesis scored a 1.0 (4.0 GPA).
+| Subject                                                 | Grade   | GPA     |
+| ------------------------------------------------------- | ------- | ------- |
+| **Overall**                                             | **1.4** | **3.6** |
+| Thesis: Prototype development of a robotic arm          | 1.0     | 4.0     |
+| Digital Signal Processing and Machine Learning          | 1.0     | 4.0     |
+| Mobile and Embedded Software Development                | 1.0     | 4.0     |
+| Electronic Circuit Design                               | 1.0     | 4.0     |
+| Advanced Actuators                                      | 1.3     | 3.7     |
+| Technical Scientific Project                            | 1.0     | 4.0     |
+| Management systems and law                              | 1.0     | 4.0     |
+| Mechatronic Project                                     | 1.0     | 4.0     |
+| Business Administration Basics                          | 1.0     | 4.0     |
+| Advanced Computer Science                               | 1.0     | 4.0     |
+| Technical Computer Science and embedded Control Systems | 1.3     | 3.7     |
+| Actuators                                               | 1.0     | 4.0     |
+| Construction with polymers and rapid manufacturing      | 1.0     | 4.0     |
+| Digital Manufactoring                                   | 1.0     | 4.0     |
+| Product Development                                     | 1.0     | 4.0     |
+| Power Electronics                                       | 3.0     | 2.0     |
+| Sensor technology                                       | 1.7     | 3.3     |
+| Advanced Topics in Mathematics                          | 2.7     | 2.3     |
+| System Dynamics                                         | 3.3     | 1.7     |
+| Advanced Engineering Mechanics                          | 2.3     | 2.7     |
+| Measurement Technologies                                | 1.7     | 3.3     |
+| Foundation Course                                       | 2.7     | 2.3     |
 
-[Bachelor Certifikat](/files/Bachelorzeugnis.pdf) (German)
+### Optional additional Subjects
 
-### Key Achievements:
+| Subject                                             | Grade | GPA |
+| --------------------------------------------------- | ----- | --- |
+| Software Prototyping                                | 2.0   | 3.0 |
+| Interface Design                                    | 1.7   | 3.3 |
+| coordinate measurement technology                   | 1.7   | 3.3 |
+| Advanced Topics in Mechatronics: Robotics           | 2.0   | 3.0 |
+| Technical optics and optical measurement technology | 2.3   | 2.7 |
 
-- **Feasibility Analysis and Client Collaboration:** Part of the work was not only the technical implementation, but also finding solutions together with the customer in the first place. This also included explaining ideas to the customer using simplified 3D models.
-
-- **3D Modeling and Rapid Prototyping:** Utilized Autodesk Fusion 360 for 3D modeling and employed both FFF and MSLA 3D printing techniques for prototyping and thus work out the strenghts and weaknesses of different 3D printing processes and the corresponding requirements for the 3D Model.
-
-- **Electronics and Control System Design:** Development of the electronics and firmware for controlling the actuators from scratch, including the determination of the inverse kinematic.
+[Certificate](/files/Bachelorzeugnis.pdf) (German)

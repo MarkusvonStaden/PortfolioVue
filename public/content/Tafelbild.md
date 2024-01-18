@@ -2,12 +2,12 @@
 
 ## Detect and save Text and images on Boards
 
-### Einleitung
+### Summary
 
 This project is a software to support hybrid teaching. It recognizes the blackboard. As soon as the writing is finished, this is automatically recognized and an image of the board is perspectively rectified and saved. A PDF with all the images is then uploaded to the learning platform.
 This project began as a mechatronic project as part of the degree course and was subsequently funded by the university as part of the "Digitalization in teaching" project.
 
-### Projektbeschreibung
+### Description
 
 Python with OpenCV was used to realize this project.
 Initially, the color was used to identify where the blackboard was located in the image. Later, the system was to be extended to whiteboards, so Aruco tags were then used. Posenet was then used to determine whether the board was covered by a person.

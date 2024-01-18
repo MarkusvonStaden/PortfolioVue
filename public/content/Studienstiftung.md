@@ -30,3 +30,5 @@ He said I was suitable for this scholarship because of my good grades and my soc
 
   My former flatmate and I are currently in the process of organizing a Micromouse competition at the university. At the moment, the individual degree courses have little to do with each other. We want to change that with this competition.
   Mechatronics engineers, electrical engineers and computer scientists have to work together to develop an maze solving model car.
+
+[Certificate](/files/Stipendium.pdf) (German)

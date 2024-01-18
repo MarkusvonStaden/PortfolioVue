@@ -6,7 +6,7 @@
 
 As part of my degree, I completed a 6-month internship in advance development at MAHLE. MAHLE is a leading international development partner and supplier to the automotive industry and a pioneer for the mobility of tomorrow. The product portfolio covers all important aspects of the powertrain and air conditioning technology - for drives with combustion engines as well as for electromobility.
 
-### Duties
+### Tasks
 
 - Collaboration in a project to develop a control system for a demonstrator for a new type of thermal actuator.
 
