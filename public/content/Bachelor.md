@@ -36,7 +36,7 @@
 | --------------------------------------------------- | ----- | --- |
 | Software Prototyping                                | 2.0   | 3.0 |
 | Interface Design                                    | 1.7   | 3.3 |
-| coordinate measurement technology                   | 1.7   | 3.3 |
+| Coordinate measurement technology                   | 1.7   | 3.3 |
 | Advanced Topics in Mechatronics: Robotics           | 2.0   | 3.0 |
 | Technical optics and optical measurement technology | 2.3   | 2.7 |
 

@@ -108,7 +108,7 @@ const proj = [
     content: "SpotiVote.md",
   },
   {
-    image: "https://picsum.photos/seed/3/800",
+    image: "/files/Blackboard.jpg",
     title: "Board Detection",
     content: "Tafelbild.md",
   },
