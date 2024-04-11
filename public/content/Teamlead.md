@@ -18,8 +18,11 @@ Furthermore, we assist startups and companies in developing prototypes and imple
 
   To provide students with ChatGPT, we have developed an application that integrates a ChatGPT-based chatbot into the Canvas learning platform.
   Through this integration, students can interact directly with the chatbot within Canvas.
+  I supervised this project as a senior developer and implemented it together with two other developers.
   To ensure data privacy and security, we have developed the application in such a way that student data is not shared with third parties.
-  The backend of this application is written in Python using FastAPI and runs on a server at Aalen University.
+  The backend of this application is written in Python using FastAPI. We used PostGreSQL as the database and chached using Redis.
+  A load balancer was used to distribute the requests to different instances of the backend and to ensure high availability.
+  Deployment is done using Docker.
   The frontend was developed using Vue and is integrated into Canvas via LTI 1.3.
   This project serves as the foundation for a chatbot that will be made available to all universities in the state of Baden-Württemberg.
 
