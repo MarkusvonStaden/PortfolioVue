@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "marked": "^11.1.0",
-    "vue": "^3.3.11"
+    "vue": "^3.3.11",
+    "vue-i18n": "^11.2.2",
+    "vue-router": "^4.6.3"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
