@@ -1,37 +1,46 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+
+const currentYear = new Date().getFullYear()
+</script>
+
 <template>
-  <footer
-    class="flex justify-center items-center gap-10 w-full rounded-none h-20"
-  >
-    <a
-      class="aspect-square w-10 z-20"
-      href="https://github.com/MarkusvonStaden"
-      target="_blank"
-    >
-      <svg
-        class="fill-slate-100 hover:fill-blue-600 w-full hover:drop-shadow-[0px_0px_20px_rgba(158,239,243)]"
-        aria-hidden="true"
-        viewBox="0 0 16 16"
-      >
-        <path
-          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
-        ></path>
-      </svg>
-    </a>
-    <a
-      class="aspect-square w-10 z-20"
-      href="https://www.linkedin.com/in/markusvonstaden/"
-      target="_blank"
-    >
-      <svg
-        class="text-slate-100 hover:text-blue-600 w-full hover:drop-shadow-[0px_0px_20px_rgba(158,239,243)]"
-        aria-hidden="true"
-        viewBox="0 0 35 35"
-      >
-        <path
-          d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z"
-          fill="currentColor"
-        ></path>
-      </svg>
-    </a>
+  <footer class="bg-dark-900 border-t border-white/5 mt-auto">
+    <div class="container mx-auto px-6 py-12">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+        
+        <!-- Social Links -->
+        <div class="flex items-center gap-6">
+          <a
+            href="https://github.com/MarkusvonStaden"
+            target="_blank"
+            class="text-slate-400 hover:text-white transition-colors duration-300"
+            aria-label="GitHub"
+          >
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/markusvonstaden/"
+            target="_blank"
+            class="text-slate-400 hover:text-white transition-colors duration-300"
+            aria-label="LinkedIn"
+          >
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Copyright & Imprint -->
+        <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-sm text-slate-500">
+          <span>&copy; {{ currentYear }} Markus von Staden</span>
+          <RouterLink to="/imprint" class="hover:text-primary transition-colors duration-300">
+            Impressum
+          </RouterLink>
+        </div>
+      </div>
+    </div>
   </footer>
 </template>
