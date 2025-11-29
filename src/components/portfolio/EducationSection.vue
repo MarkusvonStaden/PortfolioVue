@@ -17,7 +17,7 @@ defineEmits(['open-modal'])
         v-for="(item, index) in education.data" 
         :key="index"
         class="bento-card p-6 cursor-pointer group"
-        @click="$emit('open-modal', item.content)"
+        @click="$emit('open-modal', item)"
       >
         <div class="spotlight-overlay"></div>
         <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">

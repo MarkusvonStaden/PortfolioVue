@@ -17,7 +17,7 @@ defineEmits(['open-modal'])
         v-for="(item, index) in certificates.data" 
         :key="index"
         class="bento-card p-6 cursor-pointer group"
-        @click="$emit('open-modal', item.content)"
+        @click="$emit('open-modal', item)"
       >
         <div class="spotlight-overlay"></div>
         <div class="relative z-10">

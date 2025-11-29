@@ -11,7 +11,7 @@ import ProjectsSection from "../components/portfolio/ProjectsSection.vue";
 import CertificatesSection from "../components/portfolio/CertificatesSection.vue";
 import HackathonsSection from "../components/portfolio/HackathonsSection.vue";
 
-const { t } = useI18n();
+const { t, tm } = useI18n();
 const modal = useModal();
 
 function openModal(content) {
@@ -36,33 +36,23 @@ const experience = computed(() => ({
   data: [
     {
       date: "2025 - now",
-      title: t('portfolio.experience_data.kersta.title'),
-      company: t('portfolio.experience_data.kersta.company'),
-      content: "Kersta.md",
+      ...tm('portfolio.experience_data.kersta'),
     },
     {
       date: "2023 - 2025",
-      title: t('portfolio.experience_data.teamlead.title'),
-      company: t('portfolio.experience_data.teamlead.company'),
-      content: "Teamlead.md",
+      ...tm('portfolio.experience_data.teamlead'),
     },
     {
       date: "2022",
-      title: t('portfolio.experience_data.bachelor_thesis.title'),
-      company: t('portfolio.experience_data.bachelor_thesis.company'),
-      content: "Bachelorarbeit.md",
+      ...tm('portfolio.experience_data.bachelor_thesis'),
     },
     {
       date: "2021 - 2023",
-      title: t('portfolio.experience_data.consultant.title'),
-      company: t('portfolio.experience_data.consultant.company'),
-      content: "Consultant.md",
+      ...tm('portfolio.experience_data.consultant'),
     },
     {
       date: "2020 - 2021",
-      title: t('portfolio.experience_data.mahle.title'),
-      company: t('portfolio.experience_data.mahle.company'),
-      content: "Mahle.md",
+      ...tm('portfolio.experience_data.mahle'),
     },
   ],
 }));
@@ -72,15 +62,11 @@ const education = computed(() => ({
   data: [
     {
       date: "2023 - now",
-      title: t('portfolio.education_data.master.title'),
-      company: t('portfolio.education_data.master.company'),
-      content: "Master.md",
+      ...tm('portfolio.education_data.master'),
     },
     {
       date: "2018 - 2023",
-      title: t('portfolio.education_data.bachelor.title'),
-      company: t('portfolio.education_data.bachelor.company'),
-      content: "Bachelor.md",
+      ...tm('portfolio.education_data.bachelor'),
     },
   ],
 }));
@@ -90,21 +76,15 @@ const certificates = computed(() => ({
   data: [
     {
       date: "2023 - now",
-      title: t('portfolio.certificates_data.scholarship.title'),
-      company: t('portfolio.certificates_data.scholarship.company'),
-      content: "Studienstiftung.md",
+      ...tm('portfolio.certificates_data.scholarship'),
     },
     {
       date: "2021",
-      title: t('portfolio.certificates_data.patent.title'),
-      company: t('portfolio.certificates_data.patent.company'),
-      content: "Patent.md",
+      ...tm('portfolio.certificates_data.patent'),
     },
     {
       date: "2020",
-      title: t('portfolio.certificates_data.aukom.title'),
-      company: t('portfolio.certificates_data.aukom.company'),
-      content: "AUKOM.md",
+      ...tm('portfolio.certificates_data.aukom'),
     },
   ],
 }));
@@ -112,18 +92,15 @@ const certificates = computed(() => ({
 const proj = computed(() => [
   {
     image: "/files/Planter.jpg",
-    title: t('portfolio.projects_data.planter'),
-    content: "Planter.md",
+    ...tm('portfolio.projects_data.planter'),
   },
   {
     image: "/files/smartmockups_lrf40q4x.jpg",
-    title: t('portfolio.projects_data.spotivote'),
-    content: "SpotiVote.md",
+    ...tm('portfolio.projects_data.spotivote'),
   },
   {
     image: "/files/Blackboard.jpg",
-    title: t('portfolio.projects_data.board_detection'),
-    content: "Tafelbild.md",
+    ...tm('portfolio.projects_data.board_detection'),
   },
 ]);
 
@@ -132,21 +109,15 @@ const hackathons = computed(() => ({
   data: [
     {
       date: "2022",
-      title: t('portfolio.hackathons_data.ostalb.title'),
-      company: t('portfolio.hackathons_data.ostalb.company'),
-      content: "Ostalb.md",
+      ...tm('portfolio.hackathons_data.ostalb'),
     },
     {
       date: "2020, 2021, 2022",
-      title: t('portfolio.hackathons_data.packaging_valley.title'),
-      company: t('portfolio.hackathons_data.packaging_valley.company'),
-      content: "PackagingValley.md",
+      ...tm('portfolio.hackathons_data.packaging_valley'),
     },
     {
       date: "2023",
-      title: t('portfolio.hackathons_data.smart_green.title'),
-      company: t('portfolio.hackathons_data.smart_green.company'),
-      content: "SmartGreen.md",
+      ...tm('portfolio.hackathons_data.smart_green'),
     },
   ],
 }));

@@ -17,7 +17,7 @@ defineEmits(['open-modal'])
         v-for="(project, index) in projects" 
         :key="index"
         class="bento-card group relative aspect-square cursor-pointer overflow-hidden"
-        @click="$emit('open-modal', project.content)"
+        @click="$emit('open-modal', project)"
       >
         <div class="spotlight-overlay z-20"></div>
         <img 
