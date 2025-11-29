@@ -2,6 +2,32 @@
   "general": {
     "welcome": "Willkommen"
   },
+  "meta": {
+    "home": {
+      "title": "Markus von Staden - vosta GmbH",
+      "description": "3D-Druck Dienstleistungen und KI-Beratung aus Aalen."
+    },
+    "portfolio": {
+      "title": "Portfolio - Markus von Staden",
+      "description": "Mein Portfolio: Erfahrung, Projekte und Ausbildung."
+    },
+    "ai_development": {
+      "title": "KI Beratung - Markus von Staden",
+      "description": "KI-Beratung, LLM-Integration und Prozessautomatisierung."
+    },
+    "three_d_printing": {
+      "title": "3D Druck - Markus von Staden",
+      "description": "Professionelle 3D-Druck Dienstleistungen: Prototyping und Kleinserien."
+    },
+    "contact": {
+      "title": "Kontakt - Markus von Staden",
+      "description": "Kontaktieren Sie mich für Ihr nächstes Projekt."
+    },
+    "imprint": {
+      "title": "Impressum - Markus von Staden",
+      "description": "Rechtliche Informationen und Impressum."
+    }
+  },
   "nav": {
     "home": "Home",
     "portfolio": "Portfolio",

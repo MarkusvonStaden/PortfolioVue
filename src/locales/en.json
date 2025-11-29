@@ -2,6 +2,32 @@
   "general": {
     "welcome": "Welcome"
   },
+  "meta": {
+    "home": {
+      "title": "Markus von Staden - vosta GmbH",
+      "description": "3D Printing Services and AI Consulting from Aalen."
+    },
+    "portfolio": {
+      "title": "Portfolio - Markus von Staden",
+      "description": "My Portfolio: Experience, Projects, and Education."
+    },
+    "ai_development": {
+      "title": "AI Consulting - Markus von Staden",
+      "description": "AI Consulting, LLM Integration, and Process Automation."
+    },
+    "three_d_printing": {
+      "title": "3D Printing - Markus von Staden",
+      "description": "Professional 3D Printing Services: Prototyping and Small Batches."
+    },
+    "contact": {
+      "title": "Contact - Markus von Staden",
+      "description": "Get in touch for your next project."
+    },
+    "imprint": {
+      "title": "Imprint - Markus von Staden",
+      "description": "Legal Information and Imprint."
+    }
+  },
   "nav": {
     "home": "Home",
     "portfolio": "Portfolio",

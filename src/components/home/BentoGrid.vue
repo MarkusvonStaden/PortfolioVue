@@ -34,9 +34,9 @@ const handleMouseMove = (e) => {
     </div>
 
     <!-- AI Services (Medium, spans 2 cols) -->
-    <div 
-      class="bento-card group md:col-span-2 p-8 cursor-pointer" 
-      @click="router.push('/ai-development')"
+    <RouterLink 
+      to="/ai-development"
+      class="bento-card group md:col-span-2 p-8 cursor-pointer block" 
       v-motion-slide-visible-once-bottom
       :delay="100"
     >
@@ -48,12 +48,12 @@ const handleMouseMove = (e) => {
       </div>
       <h3 class="text-2xl font-bold mb-2">{{ $t('home.cards.ai.title') }}</h3>
       <p class="text-slate-400">{{ $t('home.cards.ai.desc') }}</p>
-    </div>
+    </RouterLink>
 
     <!-- 3D Printing (Medium, spans 1 col, 2 rows) -->
-    <div 
+    <RouterLink 
+      to="/3d-printing"
       class="bento-card group md:col-span-1 md:row-span-2 p-8 cursor-pointer flex flex-col justify-between" 
-      @click="router.push('/3d-printing')"
       v-motion-slide-visible-once-bottom
       :delay="200"
     >
@@ -68,12 +68,12 @@ const handleMouseMove = (e) => {
       <div class="mt-4">
         <span class="text-xs font-mono text-secondary border border-secondary/20 px-2 py-1 rounded">{{ $t('home.cards.printing.available') }}</span>
       </div>
-    </div>
+    </RouterLink>
 
     <!-- Portfolio (Medium, spans 1 col, 2 rows) -->
-    <div 
+    <RouterLink 
+      to="/portfolio"
       class="bento-card group md:col-span-1 md:row-span-2 p-8 cursor-pointer flex flex-col justify-between" 
-      @click="router.push('/portfolio')"
       v-motion-slide-visible-once-bottom
       :delay="300"
     >
@@ -90,12 +90,12 @@ const handleMouseMove = (e) => {
         <div class="w-8 h-8 rounded-full bg-slate-600 border-2 border-dark-800"></div>
         <div class="w-8 h-8 rounded-full bg-slate-500 border-2 border-dark-800 flex items-center justify-center text-[10px] font-bold">+5</div>
       </div>
-    </div>
+    </RouterLink>
 
     <!-- Socials / Contact (Small, spans 2 cols) -->
-    <div 
-      class="bento-card group md:col-span-2 p-8 flex items-center justify-between cursor-pointer" 
-      @click="router.push('/contact')"
+    <RouterLink 
+      to="/contact"
+      class="bento-card group md:col-span-2 p-8 flex items-center justify-between cursor-pointer block" 
       v-motion-slide-visible-once-bottom
       :delay="400"
     >
@@ -107,7 +107,7 @@ const handleMouseMove = (e) => {
       <div class="">
         <EnvelopeIcon class="w-8 h-8" />
       </div>
-    </div>
+    </RouterLink>
 
   </div>
 </template>
