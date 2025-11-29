@@ -156,25 +156,25 @@ const hackathons = computed(() => ({
   <div class="container mx-auto px-6 py-12 space-y-32" @mousemove="handleMouseMove">
     
     <!-- Hello Section -->
-    <IntroSection />
+    <IntroSection v-motion-slide-visible-once-bottom />
 
     <!-- About Section -->
-    <AboutSection />
+    <AboutSection v-motion-slide-visible-once-bottom />
 
     <!-- Experience Section -->
-    <ExperienceSection :experience="experience" @open-modal="openModal" />
+    <ExperienceSection :experience="experience" @open-modal="openModal" v-motion-slide-visible-once-bottom />
 
     <!-- Education Section -->
-    <EducationSection :education="education" @open-modal="openModal" />
+    <EducationSection :education="education" @open-modal="openModal" v-motion-slide-visible-once-bottom />
 
     <!-- Projects Section -->
-    <ProjectsSection :projects="proj" @open-modal="openModal" />
+    <ProjectsSection :projects="proj" @open-modal="openModal" v-motion-slide-visible-once-bottom />
 
     <!-- Certificates Section -->
-    <CertificatesSection :certificates="certificates" @open-modal="openModal" />
+    <CertificatesSection :certificates="certificates" @open-modal="openModal" v-motion-slide-visible-once-bottom />
 
     <!-- Hackathons Section -->
-    <HackathonsSection :hackathons="hackathons" @open-modal="openModal" />
+    <HackathonsSection :hackathons="hackathons" @open-modal="openModal" v-motion-slide-visible-once-bottom />
 
     <Modal />
   </div>

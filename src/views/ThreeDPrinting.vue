@@ -7,12 +7,12 @@ import { BeakerIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
 <template>
   <div class="container mx-auto px-6 py-12">
     <div class="max-w-6xl mx-auto">
-      <h1 class="text-4xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+      <h1 class="text-4xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent" v-motion-slide-visible-once-bottom>
         {{ $t('three_d_printing.title') }}
       </h1>
       
       <div class="prose prose-invert prose-lg max-w-none">
-        <p class="lead text-xl md:text-2xl text-slate-300 mb-12">
+        <p class="lead text-xl md:text-2xl text-slate-300 mb-12" v-motion-slide-visible-once-bottom :delay="100">
           {{ $t('three_d_printing.lead') }}
         </p>
 
@@ -22,6 +22,8 @@ import { BeakerIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
             :description="$t('three_d_printing.cards.prototyping.desc')"
             icon-bg-class="bg-secondary/10"
             title-class="group-hover:text-secondary"
+            v-motion-slide-visible-once-bottom
+            :delay="150"
           >
             <template #icon>
               <BeakerIcon class="h-7 w-7 text-secondary" />
@@ -33,6 +35,8 @@ import { BeakerIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
             :description="$t('three_d_printing.cards.production.desc')"
             icon-bg-class="bg-primary/10"
             title-class="group-hover:text-primary"
+            v-motion-slide-visible-once-bottom
+            :delay="200"
           >
             <template #icon>
               <CubeTransparentIcon class="h-7 w-7 text-primary" />
@@ -40,7 +44,7 @@ import { BeakerIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
           </ServiceCard>
         </div>
 
-        <div class="bg-dark-800/50 rounded-2xl p-8 border border-white/5">
+        <div class="bg-dark-800/50 rounded-2xl p-8 border border-white/5" v-motion-slide-visible-once-bottom :delay="300">
           <h2 class="text-2xl font-bold text-white mb-6 mt-0">{{ $t('three_d_printing.materials.title') }}</h2>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="text-center p-4 rounded-lg bg-white/5">
@@ -75,7 +79,7 @@ import { BeakerIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
           </div>
         </div>
 
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-4xl mx-auto" v-motion-slide-visible-once-bottom :delay="500">
           <ContactCTA />
         </div>
       </div>

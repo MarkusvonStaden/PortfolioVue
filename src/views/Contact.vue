@@ -58,11 +58,11 @@ const handleMouseMove = (e) => {
 
 <template>
   <div class="container mx-auto px-6 py-24 max-w-4xl" @mousemove="handleMouseMove">
-    <h1 class="text-4xl font-bold mb-8 text-white">{{ t('contact.title') }}</h1>
+    <h1 class="text-4xl font-bold mb-8 text-white" v-motion-slide-visible-once-bottom>{{ t('contact.title') }}</h1>
     
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
       <!-- Contact Info -->
-      <div class="space-y-8">
+      <div class="space-y-8" v-motion-slide-visible-once-bottom :delay="100">
         <p class="text-slate-300 text-lg">
           {{ t('contact.intro') }}
         </p>
@@ -78,7 +78,7 @@ const handleMouseMove = (e) => {
       </div>
 
       <!-- Contact Form -->
-      <div class="bento-card p-8 rounded-2xl relative group">
+      <div class="bento-card p-8 rounded-2xl relative group" v-motion-slide-visible-once-bottom>
         <div class="spotlight-overlay"></div>
         <form @submit.prevent="submitForm" class="space-y-6 relative z-10">
           <div>

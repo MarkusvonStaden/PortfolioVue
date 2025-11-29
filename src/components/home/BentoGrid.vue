@@ -22,7 +22,10 @@ const handleMouseMove = (e) => {
   <div class="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-7xl mx-auto p-4" @mousemove="handleMouseMove">
     
     <!-- Hero Text (Large, spans 2 cols, 2 rows) -->
-    <div class="bento-card group md:col-span-2 md:row-span-2 p-8 flex flex-col justify-center min-h-[400px]">
+    <div 
+      class="bento-card group md:col-span-2 md:row-span-2 p-8 flex flex-col justify-center min-h-[400px]"
+      v-motion-slide-visible-once-bottom
+    >
       <div class="spotlight-overlay"></div>
       <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent" v-html="$t('home.hero.title')"></h1>
       <p class="text-xl text-slate-400 max-w-md">
@@ -31,7 +34,12 @@ const handleMouseMove = (e) => {
     </div>
 
     <!-- AI Services (Medium, spans 2 cols) -->
-    <div class="bento-card group md:col-span-2 p-8 cursor-pointer" @click="router.push('/ai-development')">
+    <div 
+      class="bento-card group md:col-span-2 p-8 cursor-pointer" 
+      @click="router.push('/ai-development')"
+      v-motion-slide-visible-once-bottom
+      :delay="100"
+    >
       <div class="spotlight-overlay"></div>
       <div class="flex justify-between items-start mb-8">
         <div class="p-3 rounded-full bg-primary/10 text-primary">
@@ -43,7 +51,12 @@ const handleMouseMove = (e) => {
     </div>
 
     <!-- 3D Printing (Medium, spans 1 col, 2 rows) -->
-    <div class="bento-card group md:col-span-1 md:row-span-2 p-8 cursor-pointer flex flex-col justify-between" @click="router.push('/3d-printing')">
+    <div 
+      class="bento-card group md:col-span-1 md:row-span-2 p-8 cursor-pointer flex flex-col justify-between" 
+      @click="router.push('/3d-printing')"
+      v-motion-slide-visible-once-bottom
+      :delay="200"
+    >
       <div class="spotlight-overlay"></div>
       <div>
         <div class="p-3 rounded-full bg-secondary/10 text-secondary mb-8 w-fit">
@@ -58,7 +71,12 @@ const handleMouseMove = (e) => {
     </div>
 
     <!-- Portfolio (Medium, spans 1 col, 2 rows) -->
-    <div class="bento-card group md:col-span-1 md:row-span-2 p-8 cursor-pointer flex flex-col justify-between" @click="router.push('/portfolio')">
+    <div 
+      class="bento-card group md:col-span-1 md:row-span-2 p-8 cursor-pointer flex flex-col justify-between" 
+      @click="router.push('/portfolio')"
+      v-motion-slide-visible-once-bottom
+      :delay="300"
+    >
       <div class="spotlight-overlay"></div>
       <div>
         <div class="p-3 rounded-full bg-accent/10 text-accent mb-8 w-fit">
@@ -75,7 +93,12 @@ const handleMouseMove = (e) => {
     </div>
 
     <!-- Socials / Contact (Small, spans 2 cols) -->
-    <div class="bento-card group md:col-span-2 p-8 flex items-center justify-between cursor-pointer" @click="router.push('/contact')">
+    <div 
+      class="bento-card group md:col-span-2 p-8 flex items-center justify-between cursor-pointer" 
+      @click="router.push('/contact')"
+      v-motion-slide-visible-once-bottom
+      :delay="400"
+    >
       <div class="spotlight-overlay"></div>
       <div>
         <h3 class="text-xl font-bold mb-1">{{ $t('home.cards.connect.title') }}</h3>

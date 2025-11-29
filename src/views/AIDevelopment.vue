@@ -18,7 +18,7 @@ import {
     </div>
 
     <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" v-motion-slide-visible-once-bottom>
         <h1 class="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-blue-400 to-accent bg-clip-text text-transparent inline-block">
           {{ $t('ai_development.title') }}
         </h1>
@@ -34,6 +34,8 @@ import {
           :description="$t('ai_development.cards.llm_integration.desc')"
           icon-bg-class="bg-primary/10"
           title-class="group-hover:text-primary"
+          v-motion-slide-visible-once-bottom
+          :delay="200"
         >
           <template #icon>
             <CpuChipIcon class="h-7 w-7 text-primary" />
@@ -46,6 +48,8 @@ import {
           :description="$t('ai_development.cards.ai_agents.desc')"
           icon-bg-class="bg-accent/10"
           title-class="group-hover:text-accent"
+          v-motion-slide-visible-once-bottom
+          :delay="300"
         >
           <template #icon>
             <SparklesIcon class="h-7 w-7 text-accent" />
@@ -58,6 +62,8 @@ import {
           :description="$t('ai_development.cards.rag_systems.desc')"
           icon-bg-class="bg-indigo-500/10"
           title-class="group-hover:text-indigo-400"
+          v-motion-slide-visible-once-bottom
+          :delay="400"
         >
           <template #icon>
             <CircleStackIcon class="h-7 w-7 text-indigo-400" />
@@ -70,6 +76,8 @@ import {
           :description="$t('ai_development.cards.process_automation.desc')"
           icon-bg-class="bg-emerald-500/10"
           title-class="group-hover:text-emerald-400"
+          v-motion-slide-visible-once-bottom
+          :delay="500"
         >
           <template #icon>
             <Cog6ToothIcon class="h-7 w-7 text-emerald-400" />
@@ -77,7 +85,7 @@ import {
         </ServiceCard>
       </div>
 
-      <div class="max-w-4xl mx-auto">
+      <div class="max-w-4xl mx-auto" v-motion-slide-visible-once-bottom :delay="600">
         <ContactCTA />
       </div>
     </div>
