@@ -1,0 +1,238 @@
+{
+  "general": {
+    "welcome": "Willkommen"
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "ai_development": "KI Beratung",
+    "3d_printing": "3D Druck",
+    "open_menu": "Hauptmenü öffnen",
+    "close_menu": "Menü schließen",
+    "contact": "Kontaktieren Sie mich"
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "contact": "Kontakt"
+  },
+  "portfolio": {
+    "intro": {
+      "hi": "Hi, ich bin",
+      "role": "Machine Learning Student & Mechatronik Ingenieur"
+    },
+    "about": {
+      "title": "Über Mich",
+      "item1": "Leidenschaftlicher Machine Learning Student",
+      "item2": "Tüftler mit 3D-Druckern, Elektronik und Programmierung",
+      "item3": "Motivierter Teamplayer & Freiwilliger"
+    },
+    "titles": {
+      "experience": "Erfahrung",
+      "education": "Ausbildung",
+      "projects": "Projekte",
+      "certificates": "Zertifikate & Auszeichnungen",
+      "hackathons": "Hackathons"
+    },
+    "projects": {
+      "view_project": "Projekt ansehen"
+    },
+    "experience_data": {
+      "kersta": {
+        "title": "CEO/Co-Founder Kersta GmbH",
+        "company": "Kersta GmbH"
+      },
+      "teamlead": {
+        "title": "Teamleiter Technologie",
+        "company": "Hochschule Aalen"
+      },
+      "bachelor_thesis": {
+        "title": "Prototypenentwicklung eines Roboterarms - Bachelorarbeit",
+        "company": "Projektraum Reger"
+      },
+      "consultant": {
+        "title": "Technologieberater",
+        "company": "Hochschule Aalen"
+      },
+      "mahle": {
+        "title": "Praktikant - Konzernforschung",
+        "company": "Mahle"
+      }
+    },
+    "education_data": {
+      "master": {
+        "title": "Master of Science - Machine Learning and Data Analytics",
+        "company": "Hochschule Aalen"
+      },
+      "bachelor": {
+        "title": "Bachelor of Engineering - Mechatronik",
+        "company": "Hochschule Aalen"
+      }
+    },
+    "certificates_data": {
+      "scholarship": {
+        "title": "Stipendium",
+        "company": "Studienstiftung des deutschen Volkes"
+      },
+      "patent": {
+        "title": "Erfassung manueller Eingriffe in der automatisierten Produktion",
+        "company": "Patent DE102021105260B3"
+      },
+      "aukom": {
+        "title": "AUKOM 1",
+        "company": "Hochschule Aalen"
+      }
+    },
+    "projects_data": {
+      "planter": "Smart Planter",
+      "spotivote": "SpotiVote",
+      "board_detection": "Tafelbilderkennung"
+    },
+    "hackathons_data": {
+      "ostalb": {
+        "title": "Ostalb Hackathon",
+        "company": "Challenge: Voith (1. Platz)"
+      },
+      "packaging_valley": {
+        "title": "Packaging Valley Hackathon",
+        "company": "Challenges: Digitales Maschinenlogbuch (Patent), Optische Überwachung von Vitalparametern, Automatische Benutzerauthentifizierung an Maschinen"
+      },
+      "smart_green": {
+        "title": "Smart Green Island Makeathon, Gran Canaria",
+        "company": "Challenge: Erkennung und Verfolgung von Plastik in offenen Gewässern"
+      }
+    }
+  },
+  "ai_development": {
+    "title": "KI Beratungs-Services",
+    "lead": "Nutzung der Leistungsfähigkeit von Large Language Models (LLMs) und autonomen Agenten zum Aufbau intelligenter Systeme der nächsten Generation.",
+    "cards": {
+      "llm_integration": {
+        "title": "LLM Integration",
+        "desc": "Integration lokaler und cloud-basierter LLMs in Ihre bestehenden Workflows und Anwendungen."
+      },
+      "ai_agents": {
+        "title": "KI Agenten",
+        "desc": "Konzeption autonomer Agenten, die in der Lage sind, komplexe Aufgaben mit minimaler Überwachung zu planen, zu begründen und auszuführen."
+      },
+      "rag_systems": {
+        "title": "RAG Systeme",
+        "desc": "Beratung zum Aufbau von Retrieval-Augmented Generation Systemen, um sicher mit Ihren privaten Daten und Dokumenten zu chatten."
+      },
+      "process_automation": {
+        "title": "Prozessautomatisierung",
+        "desc": "Automatisierung kognitiver Aufgaben und Geschäftsprozesse durch intelligente agentische Workflows."
+      }
+    },
+    "technologies": "Technologien"
+  },
+  "three_d_printing": {
+    "title": "3D Druck Services",
+    "lead": "Ob Prototypen, Kleinserie oder auch einfach nur kleine Goodies: Wir sind für Sie da. Vom Rapid Prototyping bis zum komplexen Multimaterial-Druck bringen wir Ihre Ideen in die Realität.",
+    "cards": {
+      "prototyping": {
+        "title": "Prototyping",
+        "desc": "Schnelle Iteration für Ihre Produktdesigns. Senden Sie uns Ihre Dateien und erhalten Sie Ihre Teile schnell."
+      },
+      "production": {
+        "title": "Produktion",
+        "desc": "Kleinserienfertigung mit gleichbleibender Qualität. Ideal für Endanwendungsteile und funktionale Komponenten."
+      }
+    },
+    "materials": {
+      "title": "Materialien",
+      "pla": {
+        "name": "PLA",
+        "desc": "Standard & Eco"
+      },
+      "petg": {
+        "name": "PETG",
+        "desc": "Langlebig & Hitzebeständig"
+      },
+      "tpu": {
+        "name": "TPU",
+        "desc": "Flexibel"
+      },
+      "abs_asa": {
+        "name": "ABS/ASA",
+        "desc": "Industriestandard"
+      },
+      "multimaterial": {
+        "name": "Multimaterial",
+        "desc": "Bis zu 4 Farben/Materialien"
+      }
+    }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "tmg": {
+      "title": "Anschrift",
+      "content": "vosta GmbH<br />Im Heimatwinkel 9/1<br />73434 Aalen"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "E-Mail: markus@von-staden.net"
+    },
+    "register": {
+      "title": "Registereintrag",
+      "content": "Registergericht: Amtgericht Ulm<br />Handelsregister: HRB 749724"
+    },
+    "liability_content": {
+      "title": "Haftung für Inhalte",
+      "p1": "Wir sind für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit.",
+      "p2": "Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland."
+    },
+    "copyright": {
+      "title": "Urheberrecht",
+      "p1": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+      "p2": "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie mich",
+    "intro": "Haben Sie ein Projekt im Sinn oder möchten Sie über KI und Technologie diskutieren? Ich bin immer offen für neue Möglichkeiten und Kooperationen.",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Ihr Name",
+      "email": "E-Mail",
+      "email_placeholder": "ihre{'@'}email.de",
+      "message": "Nachricht",
+      "message_placeholder": "Erzählen Sie mir von Ihrem Projekt...",
+      "submit": "Nachricht senden",
+      "sending": "Sende...",
+      "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+      "error": "Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es später erneut."
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihr Projekt zu starten?",
+    "desc": "Lassen Sie uns darüber sprechen, wie wir Ihre Ideen in die Realität umsetzen können.",
+    "button": "Kontaktieren Sie mich"
+  },
+  "home": {
+    "hero": {
+      "title": "Innovating<br>The Future",
+      "subtitle": "Die Brücke zwischen Software und Realität durch fortschrittliche KI-Lösungen und präzisen 3D-Druck. Made in Aalen."
+    },
+    "cards": {
+      "ai": {
+        "title": "KI Beratung",
+        "desc": "LLMs, Agenten und intelligente Systeme."
+      },
+      "printing": {
+        "title": "3D Druck",
+        "desc": "Rapid Prototyping & Produktion.",
+        "available": "VERFÜGBAR"
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "desc": "Lernen Sie mich besser kennen."
+      },
+      "connect": {
+        "title": "Kontakt",
+        "desc": "Offen für neue Möglichkeiten."
+      }
+    }
+  }
+}

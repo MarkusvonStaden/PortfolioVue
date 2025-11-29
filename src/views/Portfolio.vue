@@ -1,5 +1,6 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, computed } from 'vue';
+import { useI18n } from 'vue-i18n';
 import Modal from "../components/modals/Modal.vue";
 import { useModal } from "../composables/useModal";
 import IntroSection from "../components/portfolio/IntroSection.vue";
@@ -10,6 +11,7 @@ import ProjectsSection from "../components/portfolio/ProjectsSection.vue";
 import CertificatesSection from "../components/portfolio/CertificatesSection.vue";
 import HackathonsSection from "../components/portfolio/HackathonsSection.vue";
 
+const { t } = useI18n();
 const modal = useModal();
 
 function openModal(content) {
@@ -29,126 +31,125 @@ const handleMouseMove = (e) => {
   }
 }
 
-const experience = {
-  title: "Experience",
+const experience = computed(() => ({
+  title: t('portfolio.titles.experience'),
   data: [
     {
       date: "2025 - now",
-      title: "CEO/Co-Founder Kersta GmbH",
-      company: "Kersta GmbH",
+      title: t('portfolio.experience_data.kersta.title'),
+      company: t('portfolio.experience_data.kersta.company'),
       content: "Kersta.md",
     },
     {
       date: "2023 - 2025",
-      title: "Teamlead Technology",
-      company: "Hochschule Aalen",
+      title: t('portfolio.experience_data.teamlead.title'),
+      company: t('portfolio.experience_data.teamlead.company'),
       content: "Teamlead.md",
     },
     {
       date: "2022",
-      title: "Prototype development of a robotic arm - Bachelor Thesis",
-      company: "Projektraum Reger",
+      title: t('portfolio.experience_data.bachelor_thesis.title'),
+      company: t('portfolio.experience_data.bachelor_thesis.company'),
       content: "Bachelorarbeit.md",
     },
     {
       date: "2021 - 2023",
-      title: "Technology Consultant",
-      company: "Hochschule Aalen",
+      title: t('portfolio.experience_data.consultant.title'),
+      company: t('portfolio.experience_data.consultant.company'),
       content: "Consultant.md",
     },
     {
       date: "2020 - 2021",
-      title: "Intern - Corporate Research",
-      company: "Mahle",
+      title: t('portfolio.experience_data.mahle.title'),
+      company: t('portfolio.experience_data.mahle.company'),
       content: "Mahle.md",
     },
   ],
-};
+}));
 
-const education = {
-  title: "Education",
+const education = computed(() => ({
+  title: t('portfolio.titles.education'),
   data: [
     {
       date: "2023 - now",
-      title: "Master of Science - Machine Learning and Data Analytics",
-      company: "Aalen University (Germany)",
+      title: t('portfolio.education_data.master.title'),
+      company: t('portfolio.education_data.master.company'),
       content: "Master.md",
     },
     {
       date: "2018 - 2023",
-      title: "Bachelor of Engineering - Mechatronics",
-      company: "Aalen University (Germany)",
+      title: t('portfolio.education_data.bachelor.title'),
+      company: t('portfolio.education_data.bachelor.company'),
       content: "Bachelor.md",
     },
   ],
-};
+}));
 
-const certificates = {
-  title: "Patents, Certificates and Scholarships",
+const certificates = computed(() => ({
+  title: t('portfolio.titles.certificates'),
   data: [
     {
       date: "2023 - now",
-      title: "Scholarship",
-      company: "German Academic Scholarship Foundation",
+      title: t('portfolio.certificates_data.scholarship.title'),
+      company: t('portfolio.certificates_data.scholarship.company'),
       content: "Studienstiftung.md",
     },
     {
       date: "2021",
-      title: "Manual Intervention Tracking in Automated Production",
-      company: "Patent DE102021105260B3",
+      title: t('portfolio.certificates_data.patent.title'),
+      company: t('portfolio.certificates_data.patent.company'),
       content: "Patent.md",
     },
     {
       date: "2020",
-      title: "AUKOM 1",
-      company: "Hochschule Aalen",
+      title: t('portfolio.certificates_data.aukom.title'),
+      company: t('portfolio.certificates_data.aukom.company'),
       content: "AUKOM.md",
     },
   ],
-};
+}));
 
-const proj = [
+const proj = computed(() => [
   {
     image: "/files/Planter.jpg",
-    title: "Smart Planter",
+    title: t('portfolio.projects_data.planter'),
     content: "Planter.md",
   },
   {
     image: "/files/smartmockups_lrf40q4x.jpg",
-    title: "SpotiVote",
+    title: t('portfolio.projects_data.spotivote'),
     content: "SpotiVote.md",
   },
   {
     image: "/files/Blackboard.jpg",
-    title: "Board Detection",
+    title: t('portfolio.projects_data.board_detection'),
     content: "Tafelbild.md",
   },
-];
+]);
 
-const hackathons = {
-  title: "Hackathons",
+const hackathons = computed(() => ({
+  title: t('portfolio.titles.hackathons'),
   data: [
     {
       date: "2022",
-      title: "Ostalb Hackathon",
-      company: "Challenge: Voith (1st Place)",
+      title: t('portfolio.hackathons_data.ostalb.title'),
+      company: t('portfolio.hackathons_data.ostalb.company'),
       content: "Ostalb.md",
     },
     {
       date: "2020, 2021, 2022",
-      title: "Packaging Valley Hackathon",
-      company:
-        "Challenges: Digital machine logbook (Patent), Optical monitorin of vital signs, Automatic user authentication on machines",
+      title: t('portfolio.hackathons_data.packaging_valley.title'),
+      company: t('portfolio.hackathons_data.packaging_valley.company'),
       content: "PackagingValley.md",
     },
     {
       date: "2023",
-      title: "Smart Green Island Makeathon, Gran Canaria",
-      company: "Challenge: Detection and tracking of plastic in open waters",
+      title: t('portfolio.hackathons_data.smart_green.title'),
+      company: t('portfolio.hackathons_data.smart_green.company'),
       content: "SmartGreen.md",
     },
   ],
-};
+}));
 </script>
 
 <template>

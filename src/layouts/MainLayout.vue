@@ -13,7 +13,7 @@ import Header from '../components/Header.vue'
     </div>
 
     <!-- Header -->
-    <Header class="relative z-40" />
+    <Header />
 
     <!-- Main Content -->
     <main class="flex-grow pt-20 relative z-10">

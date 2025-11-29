@@ -11,7 +11,7 @@ defineEmits(['open-modal'])
 
 <template>
   <section>
-    <h2 class="text-4xl font-bold mb-12 text-center font-display">Projects</h2>
+    <h2 class="text-4xl font-bold mb-12 text-center font-display">{{ $t('portfolio.titles.projects') }}</h2>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div 
         v-for="(project, index) in projects" 
@@ -29,7 +29,7 @@ defineEmits(['open-modal'])
         <div class="absolute bottom-0 left-0 p-8 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500 z-10">
           <h3 class="text-2xl font-bold text-white mb-2 font-display">{{ project.title }}</h3>
           <span class="text-primary font-medium flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-            View Project <span class="text-xl">→</span>
+            {{ $t('portfolio.projects.view_project') }} <span class="text-xl">→</span>
           </span>
         </div>
       </div>

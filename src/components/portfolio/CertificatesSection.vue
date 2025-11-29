@@ -11,7 +11,7 @@ defineEmits(['open-modal'])
 
 <template>
   <section>
-    <h2 class="text-4xl font-bold mb-12 text-center font-display">Certificates & Awards</h2>
+    <h2 class="text-4xl font-bold mb-12 text-center font-display">{{ $t('portfolio.titles.certificates') }}</h2>
     <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
       <div 
         v-for="(item, index) in certificates.data" 

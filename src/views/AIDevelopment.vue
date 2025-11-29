@@ -1,48 +1,84 @@
 <script setup>
+import ContactCTA from '../components/ContactCTA.vue'
+import ServiceCard from '../components/ServiceCard.vue'
+import { 
+  CpuChipIcon, 
+  SparklesIcon, 
+  CircleStackIcon, 
+  Cog6ToothIcon 
+} from '@heroicons/vue/24/outline'
 </script>
 
 <template>
-  <div class="container mx-auto px-6 py-12">
-    <div class="max-w-4xl mx-auto">
-      <h1 class="text-4xl md:text-5xl font-bold mb-8 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-        AI Development Services
-      </h1>
-      
-      <div class="prose prose-invert prose-lg max-w-none">
-        <p class="lead text-xl text-slate-300 mb-12">
-          Leveraging the power of Large Language Models (LLMs) and autonomous agents to build next-generation intelligent systems.
+  <div class="container mx-auto px-6 py-12 relative">
+    <!-- Background Elements -->
+    <div class="absolute top-0 right-0 -z-10 opacity-20 overflow-hidden pointer-events-none">
+        <div class="absolute top-[-10%] right-[-10%] w-96 h-96 bg-primary/30 rounded-full blur-3xl"></div>
+        <div class="absolute top-[20%] right-[10%] w-72 h-72 bg-accent/20 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-blue-400 to-accent bg-clip-text text-transparent inline-block">
+          {{ $t('ai_development.title') }}
+        </h1>
+        <p class="lead text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
+          {{ $t('ai_development.lead') }}
         </p>
+      </div>
 
-        <div class="grid md:grid-cols-2 gap-8 mb-16">
-          <div class="card">
-            <h3 class="text-xl font-bold text-white mb-4">LLM Integration</h3>
-            <p class="text-slate-400">Integration of state-of-the-art models like GPT-4, Claude, and Llama into your existing workflows and applications.</p>
-          </div>
-          <div class="card">
-            <h3 class="text-xl font-bold text-white mb-4">AI Agents</h3>
-            <p class="text-slate-400">Development of autonomous agents capable of planning, reasoning, and executing complex tasks with minimal supervision.</p>
-          </div>
-          <div class="card">
-            <h3 class="text-xl font-bold text-white mb-4">RAG Systems</h3>
-            <p class="text-slate-400">Building Retrieval-Augmented Generation systems to chat with your private data and documents securely.</p>
-          </div>
-          <div class="card">
-            <h3 class="text-xl font-bold text-white mb-4">Process Automation</h3>
-            <p class="text-slate-400">Automating cognitive tasks and business processes using intelligent agentic workflows.</p>
-          </div>
-        </div>
+      <div class="grid md:grid-cols-2 gap-6 mb-20">
+        <!-- LLM Integration -->
+        <ServiceCard
+          :title="$t('ai_development.cards.llm_integration.title')"
+          :description="$t('ai_development.cards.llm_integration.desc')"
+          icon-bg-class="bg-primary/10"
+          title-class="group-hover:text-primary"
+        >
+          <template #icon>
+            <CpuChipIcon class="h-7 w-7 text-primary" />
+          </template>
+        </ServiceCard>
 
-        <div class="bg-dark-800/50 rounded-2xl p-8 border border-white/5">
-          <h2 class="text-2xl font-bold text-white mb-6">Technologies</h2>
-          <div class="flex flex-wrap gap-3">
-            <span class="px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">LangChain</span>
-            <span class="px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">LlamaIndex</span>
-            <span class="px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">OpenAI API</span>
-            <span class="px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">Anthropic</span>
-            <span class="px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">Python</span>
-            <span class="px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">Vector Databases</span>
-          </div>
-        </div>
+        <!-- AI Agents -->
+        <ServiceCard
+          :title="$t('ai_development.cards.ai_agents.title')"
+          :description="$t('ai_development.cards.ai_agents.desc')"
+          icon-bg-class="bg-accent/10"
+          title-class="group-hover:text-accent"
+        >
+          <template #icon>
+            <SparklesIcon class="h-7 w-7 text-accent" />
+          </template>
+        </ServiceCard>
+
+        <!-- RAG Systems -->
+        <ServiceCard
+          :title="$t('ai_development.cards.rag_systems.title')"
+          :description="$t('ai_development.cards.rag_systems.desc')"
+          icon-bg-class="bg-indigo-500/10"
+          title-class="group-hover:text-indigo-400"
+        >
+          <template #icon>
+            <CircleStackIcon class="h-7 w-7 text-indigo-400" />
+          </template>
+        </ServiceCard>
+
+        <!-- Process Automation -->
+        <ServiceCard
+          :title="$t('ai_development.cards.process_automation.title')"
+          :description="$t('ai_development.cards.process_automation.desc')"
+          icon-bg-class="bg-emerald-500/10"
+          title-class="group-hover:text-emerald-400"
+        >
+          <template #icon>
+            <Cog6ToothIcon class="h-7 w-7 text-emerald-400" />
+          </template>
+        </ServiceCard>
+      </div>
+
+      <div class="max-w-4xl mx-auto">
+        <ContactCTA />
       </div>
     </div>
   </div>

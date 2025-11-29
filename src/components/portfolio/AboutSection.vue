@@ -4,17 +4,17 @@
 <template>
   <section class="grid md:grid-cols-2 gap-12 items-center">
     <div class="space-y-6">
-      <h2 class="text-4xl md:text-5xl font-bold text-white">About Me</h2>
+      <h2 class="text-4xl md:text-5xl font-bold text-white">{{ $t('portfolio.about.title') }}</h2>
       <div class="prose prose-invert prose-lg text-slate-300">
         <ul class="space-y-2 list-none pl-0">
           <li class="flex items-center gap-3">
-            <span class="text-primary">▹</span> Passionate Machine Learning Student
+            <span class="text-primary">▹</span> {{ $t('portfolio.about.item1') }}
           </li>
           <li class="flex items-center gap-3">
-            <span class="text-primary">▹</span> Tinkerer with 3D Printers, Electronics and Programming
+            <span class="text-primary">▹</span> {{ $t('portfolio.about.item2') }}
           </li>
           <li class="flex items-center gap-3">
-            <span class="text-primary">▹</span> Motivated team player & volunteer
+            <span class="text-primary">▹</span> {{ $t('portfolio.about.item3') }}
           </li>
         </ul>
       </div>

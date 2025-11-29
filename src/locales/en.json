@@ -1,0 +1,238 @@
+{
+  "general": {
+    "welcome": "Welcome"
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "ai_development": "AI Consulting",
+    "3d_printing": "3D Printing",
+    "open_menu": "Open main menu",
+    "close_menu": "Close menu",
+    "contact": "Contact me"
+  },
+  "footer": {
+    "imprint": "Imprint",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "contact": "Contact"
+  },
+  "portfolio": {
+    "intro": {
+      "hi": "Hi, I'm",
+      "role": "Machine Learning Student & Mechatronics Engineer"
+    },
+    "about": {
+      "title": "About Me",
+      "item1": "Passionate Machine Learning Student",
+      "item2": "Tinkerer with 3D Printers, Electronics and Programming",
+      "item3": "Motivated team player & volunteer"
+    },
+    "titles": {
+      "experience": "Experience",
+      "education": "Education",
+      "projects": "Projects",
+      "certificates": "Certificates & Awards",
+      "hackathons": "Hackathons"
+    },
+    "projects": {
+      "view_project": "View Project"
+    },
+    "experience_data": {
+      "kersta": {
+        "title": "CEO/Co-Founder Kersta GmbH",
+        "company": "Kersta GmbH"
+      },
+      "teamlead": {
+        "title": "Teamlead Technology",
+        "company": "Hochschule Aalen"
+      },
+      "bachelor_thesis": {
+        "title": "Prototype development of a robotic arm - Bachelor Thesis",
+        "company": "Projektraum Reger"
+      },
+      "consultant": {
+        "title": "Technology Consultant",
+        "company": "Hochschule Aalen"
+      },
+      "mahle": {
+        "title": "Intern - Corporate Research",
+        "company": "Mahle"
+      }
+    },
+    "education_data": {
+      "master": {
+        "title": "Master of Science - Machine Learning and Data Analytics",
+        "company": "Aalen University (Germany)"
+      },
+      "bachelor": {
+        "title": "Bachelor of Engineering - Mechatronics",
+        "company": "Aalen University (Germany)"
+      }
+    },
+    "certificates_data": {
+      "scholarship": {
+        "title": "Scholarship",
+        "company": "German Academic Scholarship Foundation"
+      },
+      "patent": {
+        "title": "Manual Intervention Tracking in Automated Production",
+        "company": "Patent DE102021105260B3"
+      },
+      "aukom": {
+        "title": "AUKOM 1",
+        "company": "Hochschule Aalen"
+      }
+    },
+    "projects_data": {
+      "planter": "Smart Planter",
+      "spotivote": "SpotiVote",
+      "board_detection": "Board Detection"
+    },
+    "hackathons_data": {
+      "ostalb": {
+        "title": "Ostalb Hackathon",
+        "company": "Challenge: Voith (1st Place)"
+      },
+      "packaging_valley": {
+        "title": "Packaging Valley Hackathon",
+        "company": "Challenges: Digital machine logbook (Patent), Optical monitorin of vital signs, Automatic user authentication on machines"
+      },
+      "smart_green": {
+        "title": "Smart Green Island Makeathon, Gran Canaria",
+        "company": "Challenge: Detection and tracking of plastic in open waters"
+      }
+    }
+  },
+  "ai_development": {
+    "title": "AI Consulting Services",
+    "lead": "Leveraging the power of Large Language Models (LLMs) and autonomous agents to build next-generation intelligent systems.",
+    "cards": {
+      "llm_integration": {
+        "title": "LLM Integration",
+        "desc": "Integration of state-of-the-art models like GPT-4, Claude, and Llama into your existing workflows and applications."
+      },
+      "ai_agents": {
+        "title": "AI Agents",
+        "desc": "Conceptualization of autonomous agents capable of planning, reasoning, and executing complex tasks with minimal supervision."
+      },
+      "rag_systems": {
+        "title": "RAG Systems",
+        "desc": "Consulting on building Retrieval-Augmented Generation systems to chat with your private data and documents securely."
+      },
+      "process_automation": {
+        "title": "Process Automation",
+        "desc": "Automating cognitive tasks and business processes using intelligent agentic workflows."
+      }
+    },
+    "technologies": "Technologies"
+  },
+  "three_d_printing": {
+    "title": "3D Printing Services",
+    "lead": "Whether prototypes, small batches, or just small goodies: We got you covered. From rapid prototyping to complex multi-material printing, we bring your ideas to reality.",
+    "cards": {
+      "prototyping": {
+        "title": "Prototyping",
+        "desc": "Fast iteration for your product designs. Send us your files and get your parts quickly."
+      },
+      "production": {
+        "title": "Production",
+        "desc": "Small-batch manufacturing with consistent quality. Ideal for end-use parts and functional components."
+      }
+    },
+    "materials": {
+      "title": "Materials",
+      "pla": {
+        "name": "PLA",
+        "desc": "Standard & Eco"
+      },
+      "petg": {
+        "name": "PETG",
+        "desc": "Durable & Heat Resistant"
+      },
+      "tpu": {
+        "name": "TPU",
+        "desc": "Flexible"
+      },
+      "abs_asa": {
+        "name": "ABS/ASA",
+        "desc": "Industrial Grade"
+      },
+      "multimaterial": {
+        "name": "Multimaterial",
+        "desc": "Up to 4 colors/materials"
+      }
+    }
+  },
+  "imprint": {
+  "title": "Imprint",
+  "tmg": {
+    "title": "Address",
+    "content": "vosta GmbH<br />Im Heimatwinkel 9/1<br />73434 Aalen<br />Germany"
+  },
+  "contact": {
+    "title": "Contact",
+    "content": "Email: markus@von-staden.net"
+  },
+  "register": {
+    "title": "Commercial Register Entry",
+    "content": "Register Court: District Court Ulm<br />Commercial Register: HRB 749724"
+  },
+  "liability_content": {
+    "title": "Liability for Content",
+    "p1": "We are responsible for our own content on these pages in accordance with general laws. All content is created with due care and to the best of our knowledge. Insofar as we refer to third-party websites via hyperlinks on our Internet pages, we cannot assume any guarantee for the continuous up-to-dateness, correctness, or completeness of the linked content, as this content lies outside our area of responsibility and we have no influence on its future design. If, from your point of view, any content violates applicable law or appears inappropriate, please let us know.",
+    "p2": "The legal notices on this page as well as all questions and disputes in connection with the design of this website are subject to the laws of the Federal Republic of Germany."
+  },
+  "copyright": {
+    "title": "Copyright",
+    "p1": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any kind of use outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are permitted for private, non-commercial use only.",
+    "p2": "Insofar as content on this site was not created by the operator, the copyrights of third parties are respected. Third-party content is specifically marked as such. Should you nevertheless become aware of a copyright infringement, please notify us accordingly. Upon becoming aware of any legal violations, we will remove such content immediately."
+  }
+},
+  "contact": {
+    "title": "Get in Touch",
+    "intro": "Have a project in mind or want to discuss AI and technology? I'm always open to new opportunities and collaborations.",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your Name",
+      "email": "Email",
+      "email_placeholder": "your{'@'}email.com",
+      "message": "Message",
+      "message_placeholder": "Tell me about your project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent.",
+      "error": "There was an error sending your message. Please try again later."
+    }
+  },
+  "cta": {
+    "title": "Ready to start your project?",
+    "desc": "Let's discuss how we can turn your ideas into reality.",
+    "button": "Get in Touch"
+  },
+  "home": {
+    "hero": {
+      "title": "Innovating<br>The Future",
+      "subtitle": "Bridging the gap between software and reality through advanced AI solutions and precision 3D printing. Made in Aalen."
+    },
+    "cards": {
+      "ai": {
+        "title": "AI Consulting",
+        "desc": "LLMs, Agents, and Intelligent Systems."
+      },
+      "printing": {
+        "title": "3D Printing",
+        "desc": "Rapid Prototyping & Production.",
+        "available": "AVAILABLE"
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "desc": "Get to know me better."
+      },
+      "connect": {
+        "title": "Let's Connect",
+        "desc": "Open for new opportunities."
+      }
+    }
+  }
+}
