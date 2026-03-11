@@ -4,6 +4,8 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
+useLocalizedSeo('meta.contact.title', 'meta.contact.description')
+
 const form = ref({
   name: '',
   email: '',

@@ -1,6 +1,5 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { RouterLink, useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const route = useRoute()
@@ -26,14 +25,14 @@ const toggleLanguage = () => {
   <header class="fixed w-full top-0 z-50 transition-all duration-300 bg-dark-900/80 backdrop-blur-md border-b border-white/5">
     <nav class="container mx-auto px-6 h-20 flex items-center justify-between" aria-label="Global">
       <div class="flex lg:flex-1">
-        <RouterLink to="/" class="-m-1.5 p-1.5 text-2xl font-display font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+        <NuxtLink to="/" class="-m-1.5 p-1.5 text-2xl font-display font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
           Markus von Staden
-        </RouterLink>
+        </NuxtLink>
       </div>
       
       <!-- Desktop Menu -->
       <div class="hidden lg:flex lg:gap-x-12">
-        <RouterLink 
+        <NuxtLink 
           v-for="item in navigation" 
           :key="item.name" 
           :to="item.href" 
@@ -41,7 +40,7 @@ const toggleLanguage = () => {
           :class="[route.path === item.href ? 'text-primary' : 'text-slate-300']"
         >
           {{ item.name }}
-        </RouterLink>
+        </NuxtLink>
       </div>
 
       <!-- Language Switcher & Mobile Menu Button -->
@@ -98,9 +97,9 @@ const toggleLanguage = () => {
         >
           <div v-if="mobileMenuOpen" class="fixed inset-y-0 right-0 z-[100] w-full overflow-y-auto bg-dark-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div class="flex items-center justify-between">
-              <RouterLink to="/" class="-m-1.5 p-1.5 text-2xl font-display font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent" @click="mobileMenuOpen = false">
+              <NuxtLink to="/" class="-m-1.5 p-1.5 text-2xl font-display font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent" @click="mobileMenuOpen = false">
                 Markus von Staden
-              </RouterLink>
+              </NuxtLink>
               <button type="button" class="-m-2.5 rounded-md p-2.5 text-slate-300 hover:text-white" @click="mobileMenuOpen = false">
                 <span class="sr-only">{{ t('nav.close_menu') }}</span>
                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -111,7 +110,7 @@ const toggleLanguage = () => {
             <div class="mt-6 flow-root">
               <div class="-my-6 divide-y divide-white/5">
                 <div class="space-y-2 py-6">
-                  <RouterLink 
+                  <NuxtLink 
                     v-for="item in navigation" 
                     :key="item.name" 
                     :to="item.href" 
@@ -119,7 +118,7 @@ const toggleLanguage = () => {
                     @click="mobileMenuOpen = false"
                   >
                     {{ item.name }}
-                  </RouterLink>
+                  </NuxtLink>
                 </div>
                 <div class="py-6">
                   <button 

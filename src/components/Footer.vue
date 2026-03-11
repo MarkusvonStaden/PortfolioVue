@@ -1,6 +1,4 @@
 <script setup>
-import { RouterLink } from 'vue-router'
-
 const currentYear = new Date().getFullYear()
 </script>
 
@@ -36,12 +34,12 @@ const currentYear = new Date().getFullYear()
         <!-- Copyright & Imprint -->
         <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-sm text-slate-500">
           <span>&copy; {{ currentYear }} Markus von Staden</span>
-          <RouterLink to="/contact" class="hover:text-primary transition-colors duration-300">
+          <NuxtLink to="/contact" class="hover:text-primary transition-colors duration-300">
             {{ $t('footer.contact') }}
-          </RouterLink>
-          <RouterLink to="/imprint" class="hover:text-primary transition-colors duration-300">
+          </NuxtLink>
+          <NuxtLink to="/imprint" class="hover:text-primary transition-colors duration-300">
             {{ $t('footer.imprint') }}
-          </RouterLink>
+          </NuxtLink>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
 <script setup>
-import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -19,12 +18,12 @@ import { RouterLink } from 'vue-router'
         Bridging the gap between software and reality through advanced AI solutions and precision 3D printing.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style="animation-delay: 0.4s">
-        <RouterLink to="/portfolio" class="btn-primary">
+        <NuxtLink to="/portfolio" class="btn-primary">
           View Portfolio
-        </RouterLink>
-        <RouterLink to="/ai-development" class="btn-secondary">
+        </NuxtLink>
+        <NuxtLink to="/ai-development" class="btn-secondary">
           Explore Services
-        </RouterLink>
+        </NuxtLink>
       </div>
     </div>
   </section>

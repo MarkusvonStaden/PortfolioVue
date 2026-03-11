@@ -1,5 +1,4 @@
 <script setup>
-import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const router = useRouter()
@@ -16,7 +15,7 @@ const { t } = useI18n()
       <p class="text-lg text-slate-300 mb-8">{{ t('cta.desc') }}</p>
       
       <button 
-        @click="router.push('/contactme')"
+        @click="router.push('/contact')"
         class="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-primary hover:bg-primary-dark rounded-full transition-all shadow-lg hover:shadow-primary/25"
       >
         {{ t('cta.button') }}

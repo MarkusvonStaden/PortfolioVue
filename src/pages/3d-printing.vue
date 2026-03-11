@@ -2,6 +2,8 @@
 import ContactCTA from '../components/ContactCTA.vue'
 import ServiceCard from '../components/ServiceCard.vue'
 import { BeakerIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
+
+useLocalizedSeo('meta.three_d_printing.title', 'meta.three_d_printing.description')
 </script>
 
 <template>

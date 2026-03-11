@@ -70,3 +70,13 @@
     @apply relative after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:to-sky-500 after:from-teal-300;
   }
 }
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

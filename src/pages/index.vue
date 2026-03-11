@@ -1,5 +1,7 @@
 <script setup>
 import BentoGrid from '../components/home/BentoGrid.vue'
+
+useLocalizedSeo('meta.home.title', 'meta.home.description')
 </script>
 
 <template>

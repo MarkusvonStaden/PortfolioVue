@@ -1,8 +1,14 @@
+import typography from '@tailwindcss/typography'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    './src/components/**/*.{vue,js,ts,jsx,tsx}',
+    './src/composables/**/*.{vue,js,ts,jsx,tsx}',
+    './src/layouts/**/*.{vue,js,ts,jsx,tsx}',
+    './src/pages/**/*.{vue,js,ts,jsx,tsx}',
+    './src/plugins/**/*.{vue,js,ts,jsx,tsx}',
+    './src/app.vue',
   ],
   theme: {
     extend: {
@@ -48,8 +54,5 @@ export default {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [typography],
 }
-

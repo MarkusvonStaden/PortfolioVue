@@ -1,7 +1,32 @@
-# Vue 3 + Vite
+# PortfolioVue (Nuxt 3)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Portfolio site migrated to Nuxt 3 with static generation.
 
-## Recommended IDE Setup
+## Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+```bash
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+## Production Build
+
+```bash
+npm run build
+```
+
+## Static Generation
+
+```bash
+npm run generate
+```
+
+## Notes
+
+- Static assets and PHP mail handler live in `public/`.
+- Contact form posts to `/sendmessage.php`.

@@ -1,4 +1,5 @@
 <script setup>
+useLocalizedSeo('meta.imprint.title', 'meta.imprint.description')
 </script>
 
 <template>

@@ -1,9 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-import { useRouter } from 'vue-router'
 import { ComputerDesktopIcon, CubeTransparentIcon, RectangleStackIcon, EnvelopeIcon } from '@heroicons/vue/24/outline'
-
-const router = useRouter()
 
 const handleMouseMove = (e) => {
   const cards = document.getElementsByClassName('bento-card')
@@ -34,7 +30,7 @@ const handleMouseMove = (e) => {
     </div>
 
     <!-- AI Services (Medium, spans 2 cols) -->
-    <RouterLink 
+    <NuxtLink 
       to="/ai-development"
       class="bento-card group md:col-span-2 p-8 cursor-pointer block" 
       v-motion-slide-visible-once-bottom
@@ -48,10 +44,10 @@ const handleMouseMove = (e) => {
       </div>
       <h3 class="text-2xl font-bold mb-2">{{ $t('home.cards.ai.title') }}</h3>
       <p class="text-slate-400">{{ $t('home.cards.ai.desc') }}</p>
-    </RouterLink>
+    </NuxtLink>
 
     <!-- 3D Printing (Medium, spans 1 col, 2 rows) -->
-    <RouterLink 
+    <NuxtLink 
       to="/3d-printing"
       class="bento-card group md:col-span-1 md:row-span-2 p-8 cursor-pointer flex flex-col justify-between" 
       v-motion-slide-visible-once-bottom
@@ -68,10 +64,10 @@ const handleMouseMove = (e) => {
       <div class="mt-4">
         <span class="text-xs font-mono text-secondary border border-secondary/20 px-2 py-1 rounded">{{ $t('home.cards.printing.available') }}</span>
       </div>
-    </RouterLink>
+    </NuxtLink>
 
     <!-- Portfolio (Medium, spans 1 col, 2 rows) -->
-    <RouterLink 
+    <NuxtLink 
       to="/portfolio"
       class="bento-card group md:col-span-1 md:row-span-2 p-8 cursor-pointer flex flex-col justify-between" 
       v-motion-slide-visible-once-bottom
@@ -90,10 +86,10 @@ const handleMouseMove = (e) => {
         <div class="w-8 h-8 rounded-full bg-slate-600 border-2 border-dark-800"></div>
         <div class="w-8 h-8 rounded-full bg-slate-500 border-2 border-dark-800 flex items-center justify-center text-[10px] font-bold">+5</div>
       </div>
-    </RouterLink>
+    </NuxtLink>
 
     <!-- Socials / Contact (Small, spans 2 cols) -->
-    <RouterLink 
+    <NuxtLink 
       to="/contact"
       class="bento-card group md:col-span-2 p-8 flex items-center justify-between cursor-pointer block" 
       v-motion-slide-visible-once-bottom
@@ -107,7 +103,7 @@ const handleMouseMove = (e) => {
       <div class="">
         <EnvelopeIcon class="w-8 h-8" />
       </div>
-    </RouterLink>
+    </NuxtLink>
 
   </div>
 </template>

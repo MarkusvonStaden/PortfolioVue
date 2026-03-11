@@ -7,6 +7,8 @@ import {
   CircleStackIcon, 
   Cog6ToothIcon 
 } from '@heroicons/vue/24/outline'
+
+useLocalizedSeo('meta.ai_development.title', 'meta.ai_development.description')
 </script>
 
 <template>

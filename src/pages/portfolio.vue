@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, computed } from 'vue';
+import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Modal from "../components/modals/Modal.vue";
 import { useModal } from "../composables/useModal";
@@ -13,6 +13,8 @@ import HackathonsSection from "../components/portfolio/HackathonsSection.vue";
 
 const { t, tm } = useI18n();
 const modal = useModal();
+
+useLocalizedSeo('meta.portfolio.title', 'meta.portfolio.description')
 
 function openModal(content) {
   modal.updateModalContent(content);
