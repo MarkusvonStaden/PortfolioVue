@@ -1,0 +1,518 @@
+{
+  "general": {
+    "welcome": "Willkommen"
+  },
+  "meta": {
+    "home": {
+      "title": "Markus von Staden - vosta GmbH",
+      "description": "Markus von Staden - vosta GmbH - 3D-Druck Dienstleistungen und KI-Beratung aus Aalen."
+    },
+    "portfolio": {
+      "title": "Portfolio - Markus von Staden",
+      "description": "Mein Portfolio: Erfahrung, Projekte und Ausbildung."
+    },
+    "ai_development": {
+      "title": "KI Beratung - Markus von Staden",
+      "description": "KI-Beratung, LLM-Integration und Prozessautomatisierung."
+    },
+    "three_d_printing": {
+      "title": "3D Druck - Markus von Staden",
+      "description": "Professionelle 3D-Druck Dienstleistungen: Prototyping und Kleinserien."
+    },
+    "contact": {
+      "title": "Kontakt - Markus von Staden",
+      "description": "Kontaktieren Sie mich für Ihr nächstes Projekt."
+    },
+    "imprint": {
+      "title": "Impressum - Markus von Staden",
+      "description": "Rechtliche Informationen und Impressum."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "ai_development": "KI Beratung",
+    "3d_printing": "3D Druck",
+    "open_menu": "Hauptmenü öffnen",
+    "close_menu": "Menü schließen",
+    "contact": "Kontaktieren Sie mich"
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "contact": "Kontakt"
+  },
+  "portfolio": {
+    "documents": "Dokumente",
+    "intro": {
+      "hi": "Hi, ich bin",
+      "role": "Machine Learning Student & Mechatronik Ingenieur"
+    },
+    "about": {
+      "title": "Über Mich",
+      "item1": "Leidenschaftlicher Machine Learning Student",
+      "item2": "Tüftler mit 3D-Druckern, Elektronik und Programmierung",
+      "item3": "Motivierter Teamplayer & Freiwilliger"
+    },
+    "titles": {
+      "experience": "Erfahrung",
+      "education": "Ausbildung",
+      "projects": "Projekte",
+      "certificates": "Zertifikate & Auszeichnungen",
+      "hackathons": "Hackathons"
+    },
+    "projects": {
+      "view_project": "Projekt ansehen"
+    },
+    "experience_data": {
+      "kersta": {
+        "title": "CEO/Co-Founder Kersta GmbH",
+        "company": "Kersta GmbH",
+        "description": "Gründung und Aufbau eines Technologie-Startups. Wir entwickeln innovative KI-Lösungen für Unternehmen.",
+        "projects": []
+      },
+      "teamlead": {
+        "title": "Teamleiter Technologie",
+        "company": "Hochschule Aalen",
+        "description": "Im Jahr 2023 übernahmen mein Kollege und ich die Leitung der Technologieabteilung des Digital Learning Teams der Hochschule Aalen. In dieser Rolle sind wir für die Digitalisierung der Lehre verantwortlich. Wir evaluieren neue Tools und implementieren diese bei Bedarf. Um die Digitalisierung der Lehre voranzutreiben, entwickeln wir auch eigene Lösungen. Zusätzlich bieten wir Support für Studierende und Dozenten bei der Nutzung der Lernplattform Canvas und unterstützen Startups und Unternehmen bei der Entwicklung von Prototypen.",
+        "sectionTitle": "Projekte",
+        "projects": [
+          {
+            "title": "Chatbot",
+            "description": "Um Studierenden ChatGPT zur Verfügung zu stellen, haben wir eine Anwendung entwickelt, die einen ChatGPT-basierten Chatbot in die Lernplattform Canvas integriert. Studierende können direkt in Canvas mit dem Chatbot interagieren. Ich habe dieses Projekt als Senior Developer betreut und gemeinsam mit zwei weiteren Entwicklern umgesetzt. Datenschutz war ein zentrales Thema. Backend: Python (FastAPI), PostgreSQL, Redis (Caching). Load Balancer für Hochverfügbarkeit. Deployment: Docker. Frontend: Vue (LTI 1.3). Dieses Projekt dient als Grundlage für einen landesweiten Hochschul-Chatbot."
+          },
+          {
+            "title": "Semesterübertrag",
+            "description": "Um den Semesterwechsel für Dozenten zu erleichtern, haben wir eine Anwendung entwickelt, die Kurse aus dem letzten Semester in das neue Semester kopiert und mit dem Vorlesungsplan verknüpft. Hierfür entwickelten wir eine Schnittstelle zum Stundenplan-Tool der IT-Abteilung. Die Anwendung wird laufend gewartet und an API-Änderungen angepasst."
+          }
+        ]
+      },
+      "bachelor_thesis": {
+        "title": "Prototypenentwicklung eines Roboterarms - Bachelorarbeit",
+        "company": "Projektraum Reger",
+        "description": "Ziel der Arbeit war die Entwicklung eines Prototyps eines Roboterarms für medizinische Anwendungen. Dies umfasste Design, Konstruktion und Firmware-Entwicklung. Der Arm wurde aus Kaufteilen (Nema 17 Motoren, 1:100 Planetengetriebe) und 3D-Druck-Teilen (FDM und MSLA) gefertigt. Als Motortreiber kamen TMC5160 zum Einsatz, gesteuert von einem ESP32 via SPI. Die Firmware (C++, ESP-IDF) berechnet die Gelenkpositionen mittels inverser Kinematik. Note: 1.0.",
+        "sectionTitle": "Schwerpunkte",
+        "projects": [
+          {
+            "title": "Machbarkeitsanalyse & Kundenkommunikation",
+            "description": "Lösungsfindung gemeinsam mit dem Kunden, Visualisierung von Ideen durch vereinfachte 3D-Modelle."
+          },
+          {
+            "title": "3D-Modellierung & Rapid Prototyping",
+            "description": "Konstruktion in Autodesk Fusion 360. Nutzung von FFF und MSLA 3D-Druck zur Evaluierung verschiedener Verfahren."
+          },
+          {
+            "title": "Elektronik & Steuerung",
+            "description": "Entwicklung der Elektronik und Firmware von Grund auf, inklusive Implementierung der inversen Kinematik."
+          }
+        ]
+      },
+      "consultant": {
+        "title": "Technologieberater",
+        "company": "Hochschule Aalen",
+        "description": "Während der COVID-19 Pandemie arbeitete ich zunächst im Testzentrum der Hochschule. Da die Dokumentation monoton war, entwickelte ich eigeninitiativ eine Softwarelösung zur Automatisierung. Daraufhin wurde mir die Stelle als Technologieberater angeboten. Seitdem entwickle und implementiere ich verschiedene Softwarelösungen für die Hochschule.",
+        "sectionTitle": "Projekte",
+        "projects": [
+          {
+            "title": "Testzentrum Software",
+            "description": "Webanwendung, bei der sich Nutzer registrieren konnten. Tester erhielten Anweisungen basierend auf dem verwendeten Testkit und mussten nur das Ergebnis eintragen. Zertifikate wurden automatisch erstellt und per E-Mail versandt."
+          },
+          {
+            "title": "LMS Admin Panel",
+            "description": "Entwicklung eines Admin-Panels für Canvas, um fehlende administrative Funktionen bereitzustellen, wie z.B. das Erstellen temporärer Benutzerkonten."
+          }
+        ]
+      },
+      "mahle": {
+        "title": "Praktikant - Konzernforschung",
+        "company": "Mahle",
+        "description": "6-monatiges Praktikum in der Vorausentwicklung bei MAHLE. Ich arbeitete in einem Projekt zur Entwicklung eines Steuerungssystems für einen neuartigen thermischen Aktuator.",
+        "sectionTitle": "Aufgaben",
+        "projects": [
+          {
+            "title": "Steuerungssystem & Software",
+            "description": "Implementierung der Softwaresteuerung eines Hardware-Controllers und Integration in das Gesamtsystem."
+          },
+          {
+            "title": "Testing",
+            "description": "Durchführung von Funktionstests im Labor und Entwicklung automatisierter Softwaretests für das Gesamtsystem."
+          },
+          {
+            "title": "Forschung",
+            "description": "Recherche und prototypische Umsetzung im Kontext eines neuen Software-Frameworks."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Praktikumszeugnis",
+            "file": "/files/Mahle.pdf"
+          }
+        ]
+      }
+    },
+    "education_data": {
+      "master": {
+        "title": "Master of Science - Machine Learning and Data Analytics",
+        "company": "Hochschule Aalen",
+        "description": "Abschlussnote: 1.0 (GPA 4.0).",
+        "sectionTitle": "Noten",
+        "projects": [
+          {
+            "title": "Machine Learning and Deep Learning",
+            "description": "1.0"
+          },
+          {
+            "title": "Artificial Intelligence",
+            "description": "1.0"
+          },
+          {
+            "title": "Technical internet-based systems",
+            "description": "1.0"
+          },
+          {
+            "title": "Programming embedded systems",
+            "description": "1.0"
+          },
+          {
+            "title": "Network technology and bus systems",
+            "description": "1.3"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Leistungsübersicht",
+            "file": "/files/Leistungen.pdf"
+          }
+        ]
+      },
+      "bachelor": {
+        "title": "Bachelor of Engineering - Mechatronik",
+        "company": "Hochschule Aalen",
+        "description": "Abschlussnote: 1.4. Bachelorarbeit: 1.0.",
+        "sectionTitle": "Ausgewählte Noten",
+        "projects": [
+          {
+            "title": "Digital Signal Processing and Machine Learning",
+            "description": "1.0"
+          },
+          {
+            "title": "Mobile and Embedded Software Development",
+            "description": "1.0"
+          },
+          {
+            "title": "Electronic Circuit Design",
+            "description": "1.0"
+          },
+          {
+            "title": "Advanced Actuators",
+            "description": "1.3"
+          },
+          {
+            "title": "Technical Scientific Project",
+            "description": "1.0"
+          },
+          {
+            "title": "Digital Manufactoring",
+            "description": "1.0"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Bachelorzeugnis",
+            "file": "/files/Bachelorzeugnis.pdf"
+          }
+        ]
+      }
+    },
+    "certificates_data": {
+      "scholarship": {
+        "title": "Stipendium",
+        "company": "Studienstiftung des deutschen Volkes",
+        "description": "Im Jahr 2022 wurde ich von meinem Professor für ein Stipendium vorgeschlagen. Die Aufnahme erfolgte aufgrund meiner guten Noten und meines gesellschaftlichen Engagements.",
+        "sectionTitle": "Soziales Engagement",
+        "projects": [
+          {
+            "title": "Feuerwehr",
+            "description": "Vor meinem Studium war ich aktives Mitglied der Freiwilligen Feuerwehr Wiesbaden und unterstützte als Ausbilder die Jugendfeuerwehr."
+          },
+          {
+            "title": "Jugendforum",
+            "description": "Seit 2021 Mitglied im Jugendforum Aalen. Vertretung der Interessen junger Menschen in der Kommunalpolitik. Projekte: Ausbau des ÖPNV und der Radwege in Zusammenarbeit mit lokalen Politikern."
+          },
+          {
+            "title": "UStA (Unabhängiger Studierendenausschuss)",
+            "description": "Seit 2021 aktiv im UStA. Organisation des Unikinos (wöchentliche Filmvorführungen), Catering bei der AIM-Karrieremesse und Organisation von Erstsemester-Events."
+          },
+          {
+            "title": "Micromouse Wettbewerb",
+            "description": "Organisation eines interdisziplinären Micromouse-Wettbewerbs an der Hochschule, um Studierende verschiedener Fachrichtungen (Mechatronik, Elektrotechnik, Informatik) zusammenzubringen."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Urkunde",
+            "file": "/files/Stipendium.pdf"
+          }
+        ]
+      },
+      "patent": {
+        "title": "Erfassung manueller Eingriffe in der automatisierten Produktion",
+        "company": "Patent DE102021105260B3",
+        "description": "Entstanden aus dem Packaging Valley Makeathon 2020 (Challenge von Syntegon). Idee: Automatische Erstellung eines Logbuchs für manuelle Eingriffe an Maschinen mittels Kamera und Objekterkennung. Syntegon entwickelte die Idee weiter zum Patent. Ich bin zu 25% als Miterfinder eingetragen.",
+        "sectionTitle": "Details",
+        "projects": []
+      },
+      "aukom": {
+        "title": "AUKOM 1",
+        "company": "Hochschule Aalen",
+        "description": "Zertifikat für Basiswissen in der industriellen Messtechnik. Inhalte: Form- und Lagetoleranzen, Grundlagen der Programmierung, Messablaufplanung sowie Sensor- und Gerätetechnik. Befähigt zur Reduzierung von Messunsicherheiten.",
+        "sectionTitle": "Details",
+        "projects": []
+      }
+    },
+    "projects_data": {
+      "planter": {
+        "title": "Smart Planter",
+        "company": "IoT Projekt",
+        "description": "Ein intelligenter Blumentopf, der dem Nutzer Feedback zum Zustand der Pflanze gibt (Wasserbedarf, etc.). Ziel war die Entwicklung eines batteriebetriebenen IoT-Geräts, das Sensordaten (Bodenfeuchte, Temperatur, Luftfeuchtigkeit, Luftdruck, Helligkeit) erfasst, auswertet und visuell sowie über ein Web-Interface darstellt.",
+        "sectionTitle": "Implementierung",
+        "projects": [
+          {
+            "title": "Hardware & 3D-Druck",
+            "description": "3D-gedrucktes Gehäuse (PLA) mit transparenten Elementen für LEDs. Aufbau aus Innentopf, Übertopf und Untersetzer (mit Akku und Ladeelektronik). Verbindung über Pogo-Pins."
+          },
+          {
+            "title": "Elektronik",
+            "description": "Selbstentwickelte 2-Layer-Platine mit ESP32-C3, VEML3235 (Licht), BME280 (Klima) und kapazitivem Bodenfeuchtesensor (NE555). Energieversorgung über alten Smartphone-Akku mit TP4056 Laderegler und SPX3819 Spannungsregler."
+          },
+          {
+            "title": "Firmware",
+            "description": "Entwickelt mit ESP-IDF. Features: WLAN-Verbindung (Fallback auf AP zur Konfiguration), Auslesen der Sensoren, LED-Steuerung, Datenübertragung an Backend, Deep Sleep zum Energiesparen."
+          },
+          {
+            "title": "Software Stack",
+            "description": "Backend: Python (FastAPI), Dockerisiert. Frontend: Vue.js zur Visualisierung der Sensordaten mit GraphJS und Firmware-Updates."
+          }
+        ]
+      },
+      "spotivote": {
+        "title": "SpotiVote",
+        "company": "Web App",
+        "description": "Ein Voting-System für Spotify, um die Musikauswahl auf Events zu demokratisieren. Gäste können über eine Web-App Lieder suchen und für diese abstimmen. Das Lied mit den meisten Stimmen wird als nächstes abgespielt.",
+        "sectionTitle": "Tech Stack",
+        "projects": [
+          {
+            "title": "Frontend",
+            "description": "Vue.js Anwendung. Funktionen: Suche, Voting, Anzeige der aktuellen Playlist. Speicherung der Votes in der Session."
+          },
+          {
+            "title": "Backend",
+            "description": "Ursprünglich Python, Migration zu ExpressJS. Spotify OAuth2 Login, Steuerung der Wiedergabe über Spotify API. Datenhaltung (Votes) in Redis."
+          }
+        ]
+      },
+      "board_detection": {
+        "title": "Tafelbilderkennung",
+        "company": "Computer Vision",
+        "description": "Software zur Unterstützung der hybriden Lehre. Erkennt automatisch, wenn ein Tafelbild fertiggestellt ist, entzerrt es perspektivisch und speichert es. Am Ende der Vorlesung wird ein PDF mit allen Tafelbildern automatisch in den Canvas-Kurs hochgeladen.",
+        "sectionTitle": "Funktionsweise",
+        "projects": [
+          {
+            "title": "Erkennung",
+            "description": "Python mit OpenCV. Erkennung der Tafelbereiche mittels Aruco-Tags. Personenerkennung (Posenet) verhindert Aufnahme, wenn Dozent im Bild ist."
+          },
+          {
+            "title": "Verarbeitung",
+            "description": "Perspektivische Entzerrung, Bildverbesserung (Text hervorheben), PDF-Generierung und Upload via Canvas API."
+          }
+        ]
+      }
+    },
+    "hackathons_data": {
+      "ostalb": {
+        "title": "Ostalb Hackathon",
+        "company": "Challenge: Voith (1. Platz)",
+        "description": "Motto: 'Aus der Region - Für die Region'. Challenge von Voith: 'Green Production'. Ziel war es, die Produktion umweltfreundlicher zu gestalten.",
+        "sectionTitle": "Unsere Lösung",
+        "projects": [
+          {
+            "title": "Smart Scheduling",
+            "description": "Optimierung des Maschinen-Schedulings, sodass energieintensive Prozesse dann laufen, wenn die eigene PV-Anlage viel Strom produziert. Dies minimiert Speicherverluste und CO2-Emissionen."
+          },
+          {
+            "title": "Prototyp",
+            "description": "Umsetzung in Python mit React Frontend. Nutzung von Wetterdaten für die Solarstrom-Prognose."
+          }
+        ]
+      },
+      "packaging_valley": {
+        "title": "Packaging Valley Hackathon",
+        "company": "Diverse Challenges",
+        "description": "Teilnahme an drei aufeinanderfolgenden Makeathons des Packaging Valley Germany e.V.",
+        "sectionTitle": "Projekte",
+        "projects": [
+          {
+            "title": "2020: Digitales Maschinenlogbuch",
+            "description": "Automatische Erfassung und Kategorisierung von manuellen Eingriffen an Maschinen mittels Kamera und Aruco-Tags. (Patentiert)"
+          },
+          {
+            "title": "2021: Vitalparameter-Überwachung",
+            "description": "Erhöhung der Arbeitssicherheit durch kontaktlose Erfassung von Herz- und Atemfrequenz via Webcam (OpenCV)."
+          },
+          {
+            "title": "2022: Benutzerauthentifizierung",
+            "description": "Automatische Authentifizierung von Maschinenbedienern mittels Bluetooth-Beacons (ESP32) und Signalstärke-Auswertung."
+          }
+        ]
+      },
+      "smart_green": {
+        "title": "Smart Green Island Makeathon, Gran Canaria",
+        "company": "Challenge: Vishay",
+        "description": "Challenge zur Bekämpfung von Plastikmüll in offenen Gewässern.",
+        "sectionTitle": "Lösung",
+        "projects": [
+          {
+            "title": "Sensor-Boje",
+            "description": "Entwicklung einer Boje mit optischen Sensoren zur Plastikerkennung. Energieversorgung über Solarzellen und Superkondensatoren (umweltfreundlicher als Akkus)."
+          },
+          {
+            "title": "Datenerfassung",
+            "description": "Zusammenarbeit mit der Aachen Drone Development Initiative. Eine Drohne fliegt autonom zur Boje und sammelt die Daten per LoRa-Funkverbindung ein."
+          }
+        ]
+      }
+    }
+  },
+  "ai_development": {
+    "title": "KI Beratungs-Services",
+    "lead": "Nutzung der Leistungsfähigkeit von Large Language Models (LLMs) und autonomen Agenten zum Aufbau intelligenter Systeme der nächsten Generation.",
+    "cards": {
+      "llm_integration": {
+        "title": "LLM Integration",
+        "desc": "Integration lokaler und cloud-basierter LLMs in Ihre bestehenden Workflows und Anwendungen."
+      },
+      "ai_agents": {
+        "title": "KI Agenten",
+        "desc": "Konzeption autonomer Agenten, die in der Lage sind, komplexe Aufgaben mit minimaler Überwachung zu planen, zu begründen und auszuführen."
+      },
+      "rag_systems": {
+        "title": "RAG Systeme",
+        "desc": "Beratung zum Aufbau von Retrieval-Augmented Generation Systemen, um sicher mit Ihren privaten Daten und Dokumenten zu chatten."
+      },
+      "process_automation": {
+        "title": "Prozessautomatisierung",
+        "desc": "Automatisierung kognitiver Aufgaben und Geschäftsprozesse durch intelligente agentische Workflows."
+      }
+    },
+    "technologies": "Technologien"
+  },
+  "three_d_printing": {
+    "title": "3D Druck Services",
+    "lead": "Ob Prototypen, Kleinserie oder auch einfach nur kleine Goodies: Wir sind für Sie da. Vom Rapid Prototyping bis zum komplexen Multimaterial-Druck bringen wir Ihre Ideen in die Realität.",
+    "cards": {
+      "prototyping": {
+        "title": "Prototyping",
+        "desc": "Schnelle Iteration für Ihre Produktdesigns. Senden Sie uns Ihre Dateien und erhalten Sie Ihre Teile schnell."
+      },
+      "production": {
+        "title": "Produktion",
+        "desc": "Kleinserienfertigung mit gleichbleibender Qualität. Ideal für Endanwendungsteile und funktionale Komponenten."
+      }
+    },
+    "materials": {
+      "title": "Materialien",
+      "pla": {
+        "name": "PLA",
+        "desc": "Standard & Eco"
+      },
+      "petg": {
+        "name": "PETG",
+        "desc": "Langlebig & Hitzebeständig"
+      },
+      "tpu": {
+        "name": "TPU",
+        "desc": "Flexibel"
+      },
+      "abs_asa": {
+        "name": "ABS/ASA",
+        "desc": "Industriestandard"
+      },
+      "multimaterial": {
+        "name": "Multimaterial",
+        "desc": "Bis zu 4 Farben/Materialien"
+      }
+    }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "tmg": {
+      "title": "Anschrift",
+      "content": "vosta GmbH<br />Im Heimatwinkel 9/1<br />73434 Aalen<br />Vertreten durch: Markus von Staden"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "E-Mail: markus{'@'}von-staden.net"
+    },
+    "register": {
+      "title": "Registereintrag",
+      "content": "Registergericht: Amtgericht Ulm<br />Handelsregister: HRB 749724"
+    },
+    "liability_content": {
+      "title": "Haftung für Inhalte",
+      "p1": "Wir sind für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit.",
+      "p2": "Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland."
+    },
+    "copyright": {
+      "title": "Urheberrecht",
+      "p1": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+      "p2": "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie mich",
+    "intro": "Haben Sie ein Projekt im Sinn oder möchten Sie über KI und Technologie diskutieren? Ich bin immer offen für neue Möglichkeiten und Kooperationen.",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Ihr Name",
+      "email": "E-Mail",
+      "email_placeholder": "ihre{'@'}email.de",
+      "message": "Nachricht",
+      "message_placeholder": "Erzählen Sie mir von Ihrem Projekt...",
+      "submit": "Nachricht senden",
+      "sending": "Sende...",
+      "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+      "error": "Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es später erneut."
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihr Projekt zu starten?",
+    "desc": "Lassen Sie uns darüber sprechen, wie wir Ihre Ideen in die Realität umsetzen können.",
+    "button": "Kontaktieren Sie mich"
+  },
+  "home": {
+    "hero": {
+      "title": "Innovating<br>The Future",
+      "subtitle": "Die Brücke zwischen Software und Realität durch fortschrittliche KI-Lösungen und präzisen 3D-Druck. Made in Aalen."
+    },
+    "cards": {
+      "ai": {
+        "title": "KI Beratung",
+        "desc": "LLMs, Agenten und intelligente Systeme."
+      },
+      "printing": {
+        "title": "3D Druck",
+        "desc": "Rapid Prototyping & Produktion.",
+        "available": "VERFÜGBAR"
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "desc": "Lernen Sie mich besser kennen."
+      },
+      "connect": {
+        "title": "Kontakt",
+        "desc": "Offen für neue Möglichkeiten."
+      }
+    }
+  }
+}
