@@ -21,18 +21,6 @@ function openModal(content) {
   modal.showModal();
 }
 
-const handleMouseMove = (e) => {
-  const cards = document.getElementsByClassName('bento-card')
-  for (const card of cards) {
-    const rect = card.getBoundingClientRect()
-    const x = e.clientX - rect.left
-    const y = e.clientY - rect.top
-    
-    card.style.setProperty('--mouse-x', `${x}px`)
-    card.style.setProperty('--mouse-y', `${y}px`)
-  }
-}
-
 const experience = computed(() => ({
   title: t('portfolio.titles.experience'),
   data: [
@@ -126,7 +114,7 @@ const hackathons = computed(() => ({
 </script>
 
 <template>
-  <div class="container mx-auto px-6 py-12 space-y-32" @mousemove="handleMouseMove">
+  <div class="container mx-auto px-6 py-12 space-y-32">
     
     <!-- Hello Section -->
     <IntroSection v-motion-slide-visible-once-bottom />
@@ -152,23 +140,3 @@ const hackathons = computed(() => ({
     <Modal />
   </div>
 </template>
-
-<style scoped>
-:deep(.spotlight-overlay) {
-  background: radial-gradient(
-    600px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.06),
-    transparent 40%
-  );
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 10;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-:deep(.bento-card:hover .spotlight-overlay) {
-  opacity: 1;
-}
-</style>

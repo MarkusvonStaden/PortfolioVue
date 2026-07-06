@@ -11,19 +11,18 @@ defineEmits(['open-modal'])
 
 <template>
   <section>
-    <h2 class="text-4xl font-bold mb-12 text-center font-display">{{ $t('portfolio.titles.certificates') }}</h2>
+    <h2 class="text-3xl md:text-4xl font-semibold text-zinc-900 mb-12 text-center">{{ $t('portfolio.titles.certificates') }}</h2>
     <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-      <div 
-        v-for="(item, index) in certificates.data" 
+      <div
+        v-for="(item, index) in certificates.data"
         :key="index"
-        class="bento-card p-6 cursor-pointer group"
+        class="card card-hover p-6 group"
         @click="$emit('open-modal', item)"
       >
-        <div class="spotlight-overlay"></div>
-        <div class="relative z-10">
-          <span class="font-mono text-xs text-accent mb-2 block">{{ item.date }}</span>
-          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-accent transition-colors">{{ item.title }}</h3>
-          <p class="text-slate-400 text-sm">{{ item.company }}</p>
+        <div>
+          <span class="text-xs text-zinc-400 mb-2 block">{{ item.date }}</span>
+          <h3 class="text-lg font-semibold text-zinc-900 mb-2 group-hover:text-primary transition-colors">{{ item.title }}</h3>
+          <p class="text-zinc-500 text-sm">{{ item.company }}</p>
         </div>
       </div>
     </div>
