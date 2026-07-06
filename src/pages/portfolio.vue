@@ -1,25 +1,12 @@
 <script setup>
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
-import Modal from "../components/modals/Modal.vue";
-import { useModal } from "../composables/useModal";
-import IntroSection from "../components/portfolio/IntroSection.vue";
-import AboutSection from "../components/portfolio/AboutSection.vue";
-import ExperienceSection from "../components/portfolio/ExperienceSection.vue";
-import EducationSection from "../components/portfolio/EducationSection.vue";
-import ProjectsSection from "../components/portfolio/ProjectsSection.vue";
-import CertificatesSection from "../components/portfolio/CertificatesSection.vue";
-import HackathonsSection from "../components/portfolio/HackathonsSection.vue";
+import PortfolioHeader from "../components/portfolio/PortfolioHeader.vue";
+import CvSection from "../components/portfolio/CvSection.vue";
 
 const { t, tm } = useI18n();
-const modal = useModal();
 
 useLocalizedSeo('meta.portfolio.title', 'meta.portfolio.description')
-
-function openModal(content) {
-  modal.updateModalContent(content);
-  modal.showModal();
-}
 
 const experience = computed(() => ({
   title: t('portfolio.titles.experience'),
@@ -114,29 +101,17 @@ const hackathons = computed(() => ({
 </script>
 
 <template>
-  <div class="container mx-auto px-6 py-12 space-y-32">
-    
-    <!-- Hello Section -->
-    <IntroSection v-motion-slide-visible-once-bottom />
+  <div class="max-w-3xl mx-auto px-6 py-12 md:py-16 space-y-16 md:space-y-20">
+    <PortfolioHeader v-motion-slide-visible-once-bottom />
 
-    <!-- About Section -->
-    <AboutSection v-motion-slide-visible-once-bottom />
+    <CvSection :title="experience.title" :entries="experience.data" v-motion-slide-visible-once-bottom />
 
-    <!-- Experience Section -->
-    <ExperienceSection :experience="experience" @open-modal="openModal" v-motion-slide-visible-once-bottom />
+    <CvSection :title="education.title" :entries="education.data" v-motion-slide-visible-once-bottom />
 
-    <!-- Education Section -->
-    <EducationSection :education="education" @open-modal="openModal" v-motion-slide-visible-once-bottom />
+    <CvSection :title="t('portfolio.titles.projects')" :entries="proj" v-motion-slide-visible-once-bottom />
 
-    <!-- Projects Section -->
-    <ProjectsSection :projects="proj" @open-modal="openModal" v-motion-slide-visible-once-bottom />
+    <CvSection :title="certificates.title" :entries="certificates.data" v-motion-slide-visible-once-bottom />
 
-    <!-- Certificates Section -->
-    <CertificatesSection :certificates="certificates" @open-modal="openModal" v-motion-slide-visible-once-bottom />
-
-    <!-- Hackathons Section -->
-    <HackathonsSection :hackathons="hackathons" @open-modal="openModal" v-motion-slide-visible-once-bottom />
-
-    <Modal />
+    <CvSection :title="hackathons.title" :entries="hackathons.data" v-motion-slide-visible-once-bottom />
   </div>
 </template>
