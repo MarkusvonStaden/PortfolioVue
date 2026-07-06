@@ -3,7 +3,7 @@ const currentYear = new Date().getFullYear()
 </script>
 
 <template>
-  <footer class="bg-dark-900 border-t border-white/5 mt-auto">
+  <footer class="bg-white border-t border-zinc-200 mt-auto">
     <div class="container mx-auto px-6 py-12">
       <div class="flex flex-col md:flex-row justify-between items-center gap-8">
         
@@ -12,7 +12,7 @@ const currentYear = new Date().getFullYear()
           <a
             href="https://github.com/MarkusvonStaden"
             target="_blank"
-            class="text-slate-400 hover:text-white transition-colors duration-300"
+            class="text-zinc-400 hover:text-zinc-900 transition-colors duration-300"
             :aria-label="$t('footer.github')"
           >
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -22,7 +22,7 @@ const currentYear = new Date().getFullYear()
           <a
             href="https://www.linkedin.com/in/markusvonstaden/"
             target="_blank"
-            class="text-slate-400 hover:text-white transition-colors duration-300"
+            class="text-zinc-400 hover:text-zinc-900 transition-colors duration-300"
             :aria-label="$t('footer.linkedin')"
           >
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -32,7 +32,7 @@ const currentYear = new Date().getFullYear()
         </div>
 
         <!-- Copyright & Imprint -->
-        <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-sm text-slate-500">
+        <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-sm text-zinc-500">
           <span>&copy; {{ currentYear }} Markus von Staden</span>
           <NuxtLink to="/contact" class="hover:text-primary transition-colors duration-300">
             {{ $t('footer.contact') }}

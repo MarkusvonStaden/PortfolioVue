@@ -5,78 +5,62 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    @apply antialiased text-slate-100 bg-dark-900;
+    @apply antialiased bg-white text-zinc-900;
   }
-  
+
   body {
     @apply overflow-x-hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display font-bold tracking-tight;
+    @apply font-semibold tracking-tight;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply px-6 py-3 bg-primary hover:bg-blue-600 text-white rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-primary/25;
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary hover:bg-primary-dark text-white font-medium transition-colors
+           focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary
+           disabled:opacity-50 disabled:cursor-not-allowed;
   }
-  
+
   .btn-secondary {
-    @apply px-6 py-3 bg-dark-800 hover:bg-dark-700 text-white rounded-lg font-medium transition-all duration-300 border border-dark-700;
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white hover:bg-zinc-50 text-zinc-900 font-medium border border-zinc-300 transition-colors;
   }
 
   .card {
-    @apply bg-dark-800/40 backdrop-blur-md border border-white/5 rounded-3xl p-6 hover:border-white/10 transition-all duration-300;
-  }
-  
-  .bento-card {
-    @apply relative overflow-hidden bg-dark-800/40 backdrop-blur-md border border-white/5 rounded-3xl transition-all duration-500 hover:border-white/20;
-  }
-}
-
-@layer utilities {
-  .noise-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 50;
-    opacity: 0.05;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    @apply bg-white border border-zinc-200 rounded-xl transition-colors;
   }
 
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
+  .card-hover {
+    @apply hover:border-zinc-300 cursor-pointer;
   }
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .no-scrollbar {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-}
 
-@layer components {
-  .box-accent {
-    @apply relative rounded-2xl bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-500 after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:to-indigo-600 after:from-cyan-300 after:via-blue-600;
-  }
-  .box-accent-inv {
-    @apply z-0 relative rounded-2xl bg-gradient-to-r to-cyan-300 via-blue-400 from-indigo-500 after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:from-indigo-600 after:to-cyan-300 after:via-blue-600;
-  }
-  .glow {
-    @apply relative after:z-0 after:absolute after:inset-0 after:rounded-2xl after:blur-3xl after:content-[''] after:bg-gradient-to-r after:to-sky-500 after:from-teal-300;
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg bg-white border border-zinc-300 text-zinc-900 placeholder-zinc-400
+           focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors;
   }
 }
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.1s ease;
+  transition: opacity 0.15s ease;
 }
 
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

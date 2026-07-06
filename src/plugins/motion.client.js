@@ -5,14 +5,14 @@ export default defineNuxtPlugin((nuxtApp) => {
     directives: {
       'slide-visible-once-bottom': {
         initial: {
-          y: 100,
+          y: 16,
           opacity: 0,
         },
         visibleOnce: {
           y: 0,
           opacity: 1,
           transition: {
-            duration: 200,
+            duration: 350,
             ease: 'easeOut',
           },
         },

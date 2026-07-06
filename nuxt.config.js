@@ -5,7 +5,10 @@ export default defineNuxtConfig({
   },
   srcDir: 'src/',
   css: [
-    '@fontsource/space-grotesk',
+    '@fontsource/inter/400.css',
+    '@fontsource/inter/500.css',
+    '@fontsource/inter/600.css',
+    '@fontsource/inter/700.css',
     '@/index.css',
   ],
   app: {
